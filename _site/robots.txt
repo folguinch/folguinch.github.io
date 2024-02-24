@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://folguinch.github.io//sitemap.xml
