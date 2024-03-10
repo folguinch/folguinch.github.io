@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-03-09T20:40:38+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-03-10T20:12:37+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Carretera Austral - The long wait</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter4/" rel="alternate" type="text/html" title="Carretera Austral - The long wait" /><published>2024-03-09T00:00:00+08:00</published><updated>2024-03-09T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter4</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter4/"><![CDATA[<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>
 
@@ -121,6 +121,26 @@ The Queulat NP was closed a three days a week due to road work on the park, whic
 So I decided to move to a camping site closer to the park (the camping site inside the park was also not working).
 These campings were just a few kms from Puyuhuapi, so I just took my time defrosting/drying my tent with an incipient sun light.
 Before leaving the town, I enjoyed a last visit to the cafe to have a kuchen and hot coffee.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_013-480.webp 480w,/assets/img/carretera_austral_013-800.webp 800w,/assets/img/carretera_austral_013-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_013.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    The road next to the fjord.
+</div>
 
 <p>There were two working camping sites near the park, my first option was slightly after the entrance of the park (further away from Puyuhuapi).
 When I got there, the toilets and showers looked clean, but the sites were not quite ready and you can see that sheep had used them recently for protection.
