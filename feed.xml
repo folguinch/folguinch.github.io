@@ -1,5 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-05T18:50:49+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Carretera Austral - Disconnecting from the world</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/" rel="alternate" type="text/html" title="Carretera Austral - Disconnecting from the world" /><published>2024-05-04T00:00:00+08:00</published><updated>2024-05-04T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter12</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-12T15:27:18+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Carretera Austral - The last ferry crossing</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/" rel="alternate" type="text/html" title="Carretera Austral - The last ferry crossing" /><published>2024-05-11T00:00:00+08:00</published><updated>2024-05-11T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter13</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/"><![CDATA[<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_066-480.webp 480w,/assets/img/carretera_austral_066-800.webp 800w,/assets/img/carretera_austral_066-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_066.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Crossing the river of Los Ñadis.
+</div>
+
+<p>With fresh legs, I started early to catch the ferry to Rio Bravo.
+Aside from the lack of internet connection, I knew this was the first time I would have to find a non-established  place to camp.
+Other than around Vargas lake or in Caleta Tortel, wild camping is the way to go in this part of the road (at least when I travelled as it turned out).</p>
+
+<h2 id="catching-the-ferry-in-puerto-yungay">Catching the ferry in Puerto Yungay</h2>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_067-480.webp 480w,/assets/img/carretera_austral_067-800.webp 800w,/assets/img/carretera_austral_067-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_067.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Estero La Tranquera.
+</div>
+
+<p>The morning was bright with a few clouds, not too cold and not raining.
+I quickly went through the tranqueras back to the Ruta 7.
+Once back on the road, the gravel was much more easier than previous years.
+The bright morning sun passing through clouds made for some amazing landscapes.
+The road was soft passing in and out of forests, farms, rivers and next to lakes.
+Close to Lago Vargas (which wasn’t quite visible from the road) two camping sites appeared.
+I had considered staying here, but I chose for a larger stay in Los Ñadis.
+These camp sites were offering internet, probably thanks to Starlink.</p>
+
+<p>Once Lago Vargas has passed I stopped near a place called Caleta Cachorro, though the only sign of people living here were a few farms and a community center.
+From here a white wall could be seen down the road, so I put on my rain gear.
+It turned out to be rain and sleet, which passed by really fast.
+Once out of the rain, a plain opened up, without trees, brown and with some kind of pasture arranged next to the road.
+Getting to the end of the Vargas river (where it will join the Baker river) a guy waiting for the bus asked me for fire to light a cigar in the cold morning road under the trees.
+I chatted with him for a few minutes, luckily he was picked up by some guys going down to Caleta Tortel after fishing.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_068-480.webp 480w,/assets/img/carretera_austral_068-800.webp 800w,/assets/img/carretera_austral_068-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_068.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Joining with the Baker river once again.
+</div>
+
+<p>Once again travelling next to the Baker river, I stopped for some sandwiches.
+So far the road had been relatively flat with nice soft gravel, but as I was getting close to the junction with the road to Caleta Tortel the gravel started to get worse.
+This didn’t matter though, right after the junction  the largest climb of the day started.
+The first few switchbacks offered ample views of the Baker river and the mountains surrounding it.
+Then after the last curve, a few snow flakes started to fall, but the day was still sunny with some clouds over the mountains.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_069-480.webp 480w,/assets/img/carretera_austral_069-800.webp 800w,/assets/img/carretera_austral_069-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_069.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Laguna Caiquenes.
+</div>
+
+<p>Two lagoons gave a welcome to the top.
+At this point I was doing a good time, enough to catch the second to last ferry.
+So I took the descent carefully, arriving to Puerto Yungay soon after the ferry had arrived (but 2-3 hours before the next ferry).
+A small store, which online reviews say it sells empanadas, was closed.
+Luckily I was well stocked, with cookies and bread.
+Other 4 cyclists were waiting there, I didn’t talk much with them there, but I was going to meet them again on our way to Villa O’Higgins.</p>
+
+<h2 id="wild-camping">Wild camping</h2>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_070-480.webp 480w,/assets/img/carretera_austral_070-800.webp 800w,/assets/img/carretera_austral_070-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_070.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Ferry crossing from Puerto Yungay to Rio Bravo.
+</div>
+
+<p>Looking online several places were marked as good places for wild camping after Rio Bravo.
+So after a calm ferry crossing, everybody got on their wheels to find a place for the night.
+I inspected a place under a bridge, but decided to continue.
+Here, one of the couples caught up with me and we chatted for five minutes before I stopped to the second place I saw online.
+They continued down the road, while I decided to stay in that place next to the river but separated from the road by shrubs.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_071-480.webp 480w,/assets/img/carretera_austral_071-800.webp 800w,/assets/img/carretera_austral_071-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_071.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Camping next to the river.
+</div>
+
+<p>With the sun going down behind the mountains, the afternoon was getting cold quickly.
+So I had a quick meal and got in my sleeping bag.
+Even though there was a last ferry, not many cars passed by during the night.
+Inside my tent, a strange noise felt outside.
+I thought it was some kind of animal, but couldn’t see any when I looked around, just a breeze moving the trees.
+The sound persisted during the night, which added to the cold didn’t let me sleep very well.</p>
+
+<p>Being the first time wild camping alone, I was feeling a bit uneasy by the noise.
+So the next day I woke up early for the last day on the Carretera Austral</p>
+
+<h4 id="maps">Maps:</h4>
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10147944229" data-style="standard"></div>
+<script src="https://strava-embeds.com/embed.js"></script>
+
+<p><br /><br /></p>
+
+<h4 id="more-pictures">More pictures:</h4>
+
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Nice roads and wild camping]]></summary></entry><entry><title type="html">Carretera Austral - Disconnecting from the world</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/" rel="alternate" type="text/html" title="Carretera Austral - Disconnecting from the world" /><published>2024-05-04T00:00:00+08:00</published><updated>2024-05-04T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter12</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1680,176 +1862,4 @@ Without artificial light in the camping, I went straight to sleep after enjoying
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Feeling stuck]]></summary></entry><entry><title type="html">Carretera Austral - The valley of rain</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter3/" rel="alternate" type="text/html" title="Carretera Austral - The valley of rain" /><published>2024-03-02T00:00:00+08:00</published><updated>2024-03-02T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter3</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter3/"><![CDATA[<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_029-480.webp 480w,/assets/img/carretera_austral_029-800.webp 800w,/assets/img/carretera_austral_029-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_029.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Hanging bridge over Yelcho river.
-</div>
-
-<p>The day started once again with rain. Straight out of Chaiten three dogs
-were following me and barking, but none had enough stamina to keep up with me.
-After this scare, the road was quite quiet, with not many cars or trucks. So
-far, they have been well behaved and passed me respecting the 1.5m of distance.
-Many locals told me to be careful, but drivers were more careful maybe because
-the proper high season hadn’t started yet. What would turn out to be a
-common thing along this trip is that drivers on the other direction waved to
-say hi. Even people on motorcycles (many of them Brazilian tourists) were also
-saying hi.</p>
-
-<p>The first stop of the day was at the Ranita de Darwin trail in the Amarillo
-sector of the Pumalin NP. Nobody was here, only some boot marks on the dusty
-road indicated the presence of someone somewhere. With nobody in sight, I
-quickly did the trail. The trail itself is a path through the forest sometimes
-muddy but with wooden planks to cross some of them. Seen
-a Ranita de Darwin is very difficult as they are very small, however I saw
-woodpeckers and other birds could be heard.</p>
-
-<h2 id="rain-and-cold-on-the-rise">Rain and cold on the rise</h2>
-
-<p>With a bit of rain every now and then, water falling from the mountain sides
-could frequently be seen from El Amarillo to the south. The first big lake on
-the road is the Yelcho. So far the road hasn’t been difficult but once you reach
-the lake it starts to climb. The lake cannot be seen much once you pass the
-hanging bridge after Puerto Cardenas because of tall trees, the few lookouts
-are not very good as the electricity cables block the view.</p>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_008-480.webp 480w,/assets/img/carretera_austral_008-800.webp 800w,/assets/img/carretera_austral_008-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_008.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Water from the Yelcho Glacier on the cuesta Moraga.
-</div>
-
-<p>The first big climb is the “cuesta” Moraga. This climb is not difficult, but
-closer to the peak patches of snow could be seen on the side of the road. The
-cold and rain, made for a very cold descent into Villa Santa Lucia. This small
-village was almost erased from the map after a landslide, caused by high
-temperatures and rain near the Yelcho glacier, buried part of the town on 2016.
-The consequences can still be seen as a section of the road is still being
-repaired and in the museum dedicated to the tragedy.</p>
-
-<p>As a small town, there were 2 hostels, a camping and some cabanas.
-Although the camping was covered, a few pools of water were under the roofs.
-Of the 2 hostels, the owners of my preferred ones were out and hadn’t come back.
-So I went to the other one, because the cold was setting in (but was still
-relatively early). The hostel wasn’t well kept, understandably because the owner
-may have only time for the store in the first floor. After showering and having
-a soup, I went to my room to rest. Here I noticed that the room was not the
-best, with a hole in the wall (which I covered with tape) and holes in the roof
-were some bird poop has accumulating.</p>
-
-<p>So I decided to give the other place a go. Fortunately, the owners were back, so
-I moved there. This one was more comfortable, and I spent a good time talking to
-the owners, who shared stories about other travelers and how was living through
-the pandemic here. They also gave some recommendations about good camping sites
-to stay further south.</p>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_009-480.webp 480w,/assets/img/carretera_austral_009-800.webp 800w,/assets/img/carretera_austral_009-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_009.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Araucaria (monkey puzzle tree) at La Junta square.
-</div>
-
-<p>The next morning was raining more heavily and colder, but the road was very flat
-and it took me little time to arrive at La Junta.</p>
-
-<h2 id="days-at-la-junta">Days at La junta</h2>
-
-<p>La Junta is a bit smaller than Chaiten, but the dogs were tamer. At the time
-of my arrival it was getting sunny with scattered clouds and windy. After a well
-deserved lunch I found accommodation. There was no point on rushing since the
-next national park I wanted to visit would be closed for a few days before I
-could get there. So I stayed in a good place for 2 nights.</p>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_010-480.webp 480w,/assets/img/carretera_austral_010-800.webp 800w,/assets/img/carretera_austral_010-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_010.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    La Junta from lookout.
-</div>
-
-<p>After putting my clothes and cycling shoes to dry and taking a good shower, I
-walked to a lookout in the hill next to town for a panoramic view of the town.
-With passing clouds beams of light illuminated the green fields in the farms
-around town and the snowed mountains at the distance. I spent probably a good
-30 minutes there enjoying the view and taking pictures.
-Food in town was not easy to find with only a couple of restaurants and stores
-open. Nevertheless, I enjoyed the local salmon, puyes (small fish which are
-locally produced and sold at high prices to international hotels) and nalca
-(giant rhubarb) as dessert.</p>
-
-<p>The good weather didn’t last. The day after I was thinking of going to the
-Rosselot lake and visit the confluence of the Palena and Rosselot rivers,
-but the rain started early and didn’t stop until the end of the day. Even
-going out to get food without getting wet was difficult. So I just rested
-that day and sorted my things.</p>
-
-<h4 id="maps">Maps:</h4>
-
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9996753792" data-style="standard"></div>
-<script src="https://strava-embeds.com/embed.js"></script>
-
-<p><br /><br /></p>
-
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10002580630" data-style="standard"></div>
-<script src="https://strava-embeds.com/embed.js"></script>
-
-<p><br /><br /></p>
-
-<h4 id="more-pictures">More pictures:</h4>
-
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Days of rain and cold]]></summary></entry></feed>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Feeling stuck]]></summary></entry></feed>
