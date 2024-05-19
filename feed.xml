@@ -1,5 +1,342 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-12T15:27:18+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Carretera Austral - The last ferry crossing</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/" rel="alternate" type="text/html" title="Carretera Austral - The last ferry crossing" /><published>2024-05-11T00:00:00+08:00</published><updated>2024-05-11T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter13</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-19T16:09:03+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Carretera Austral - The end of the carretera</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/" rel="alternate" type="text/html" title="Carretera Austral - The end of the carretera" /><published>2024-05-18T00:00:00+08:00</published><updated>2024-05-18T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter14</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/"><![CDATA[<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_072-480.webp 480w,/assets/img/carretera_austral_072-800.webp 800w,/assets/img/carretera_austral_072-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_072.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    A cold start of the day.
+</div>
+
+<p>The last day started with a cold morning, so much so that my tent was frozen.
+Added to a bad night sleep, due to the sound I was hearing during the night, arriving to Villa O’Higgins was the only thing I had in mind for a better rest.
+So after removing the ice the best I could from the tent and bike saddle, eating a quick breakfast, and noticing that the sound was due to a tent rope not properly set, I got back on the road.</p>
+
+<h2 id="the-last-climb-of-the-trip">The last climb of the trip</h2>
+
+<p>The road to Villa O’Higgins is constantly accompanied by rivers and lakes, with its first part passing a couple of hills and the second part relatively flat.
+The gravel, however, is one of the worst of the carretera, with big stones popping out specially when the road was getting closer to the hills (where landslides are more common).
+I spent most of the first hour warming up my hands, which even with warm gloves were getting very cold.
+However, the sun was coming out and the heat produced during the first climb of the day helped a lot.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_073-480.webp 480w,/assets/img/carretera_austral_073-800.webp 800w,/assets/img/carretera_austral_073-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_073.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    The valley after the second climb.
+</div>
+
+<p>After the second and longest climb of the day started I caught up with the couple I met the day before.
+They told me they cycled for another 15 minutes before setting camp the night before.
+We soon arrived to one of the “refugios” that dotted the road, and frequently used by cyclists due to the lack of established camping sites.
+Here we parted ways, at least until Villa O’Higgins, as they decided to have food while I just refilled my bottles.
+At this point the view was of the valley below and the river snaking its way between the mountains.</p>
+
+<p>After a short descent, the final and shortest climb of the day started.
+This was probably one of the toughest parts, at least of the day but probably the whole trip, with gradients reaching 15% with a relentless gravel.
+The descent after didn’t provide much relief of the gravel, but after entering the flatter part of the road the gravel improved.
+This part follows a valley next to some lakes and lagoons, with the Lago Cisnes the largest one before arriving to Villa O’Higgins.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_074-480.webp 480w,/assets/img/carretera_austral_074-800.webp 800w,/assets/img/carretera_austral_074-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_074.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Lago Cisnes.
+</div>
+
+<p>The landscape around the road so far has been dotted by woods, with few farms and logging huts, and the weather sunny with little wind.
+However all changed once I reached Villa O’Higgins, where clouds could be seen over the O’Higgins lake and a headwind gave me the welcome into town.
+Villa O’Higgins, however, is not the end of the carretera.
+The end is located a few km further south in Bahia Bahamondes.
+It turned out that part of the clouds that could be seen in the horizon was dust from the lake shore.
+Once I reached the signpost marking the end of the carretera, the day was getting cold, so I returned to the town and on the way back I saw fox.</p>
+
+<p>After returning, I got my certificate from the tourist information centre, where they also gave some advice about the buses to Tortel and activities around.
+Finding accommodation was not difficult, but some of the recommendations that other people gave me were not open.
+As my phone got no signal (due to some regulations in Chile) it was also impossible to call or search online.
+So I stayed at the first place the tourist information guide gave me, which was the Mosco Hostel.
+The hostel seemed to be the favourite spot for cyclists, and it offered single and shared rooms, and even huts.
+Here I met once again the couples from the ferry, and as the days passed even some of the people from the ferry in Hornopiren ended up here.</p>
+
+<h2 id="shared-adventures">Shared adventures</h2>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_075-480.webp 480w,/assets/img/carretera_austral_075-800.webp 800w,/assets/img/carretera_austral_075-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_075.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    The end of the Carretera Austral.
+</div>
+
+<p>El Mosco hostel turned out to be a warm place, well kept by its staff and full of charm.
+Its dining room was where the travelers shared their stories.
+When I arrived a group of hikers and the couple of cyclists with their dog that I saw on their way to Coyhaique were there waiting for the ferry to cross to Argentina.
+The hikers aiming to climbs the hills near El Calafate, while the cycling couple were going all the way south to Ushuaia.
+Another couple of French cyclists, were stocking up to continue their trip up to Colombia (or so was their plan).
+They actually started from Argentina and crossed through the mountains, near Lago Christie (more about this lake below), instead of waiting the Lago O’Higgins boat.
+They had a tough time with the wind on the Argentinian side, so their stop was longer to recharge their batteries.
+To cross the lake many were waiting for at least a couple of days, even the trips to the O’Higgins glacier were not working because of the weather of the lake.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_076-480.webp 480w,/assets/img/carretera_austral_076-800.webp 800w,/assets/img/carretera_austral_076-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_076.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    El Mosco glacier on my way back into town.
+</div>
+
+<p>The first couple in the ferry to arrive were the ones that camped near me, the guy was going to return through Coyhaique while the girl was continuing south.
+The second couple in the ferry turned out to be from England and they were also crossing to Argentina.
+Some of them got tickets for the boat leaving in a couple of days, while the rest would only be able to cross the day after I left.
+With the days more cyclists arrived, one from the US and another from Russia, who have suffered the perils of the changing weather including a blizzard.
+Finally the Australian girls who I met crossing from Hornopiren to Caleta Gonzalo arrived.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_077-480.webp 480w,/assets/img/carretera_austral_077-800.webp 800w,/assets/img/carretera_austral_077-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_077.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Villa O'Higgins.
+</div>
+
+<p>During dinner many people will gather in the room and shared their stories about their trip, plans and recommendations.
+The owner was also very accommodating, offering us rhubarb cake or fruits.
+Considering that Villa O’Higgins is one of the most isolated towns in Chile, where fresh vegetables are difficult to find, these treats were more than welcomed.
+Although everyone had different goals and places to go, sharing our adventures for at least a couple of days was good way to round up our trips in the carretera.</p>
+
+<h2 id="small-town-lots-to-do">Small town, lots to do</h2>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_078-480.webp 480w,/assets/img/carretera_austral_078-800.webp 800w,/assets/img/carretera_austral_078-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_078.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Lago O'Higgins.
+</div>
+
+<p>During the day time everyone would disappear, some doing maintenance, laundry or walking around.
+In my case, I decided to leave the bike for the first few days and do some hikes.
+In the first one, I went to the hill next to the town to get some views from above.
+The hike wasn’t difficult and the day was sunny, but there was still parts of the ground frozen from the cold night.
+The path also allowed me to see another glacier from afar.
+Once back in town, I prepared a good lunch and rested planning the next day.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_079-480.webp 480w,/assets/img/carretera_austral_079-800.webp 800w,/assets/img/carretera_austral_079-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_079.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Lagoons on the hill from Altavista trail.
+</div>
+
+<p>For my second hike, I cycled to the entrance of a trail called Altavista.
+The hill located towards Bahia Bahamondes, offered views of some lagoons in the mountains, glaciers and the town.
+It wasn’t more difficult than the trail the day before, but it was muddy and the shrubs overgrown in many parts of the trail.
+Other than birds, the trail was good to see frogs, especially in the muddy parts.
+The sunny days however turned to cold and rain the next day, so I decided to just walk around and sort my things.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_080-480.webp 480w,/assets/img/carretera_austral_080-800.webp 800w,/assets/img/carretera_austral_080-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_080.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="caption">
+    Lago Christie.
+</div>
+
+<p>The day before leaving, I took food and spare parts to a trip Lago Christie.
+This lake can be reached by a road to the limit with Argentina.
+The road cross a few woods and is sometimes dotted with farms where cows and horse could be seen.
+It is however a bit lonelier than other roads.
+The morning started a bit cold and rainy, but soon the sun came out.
+At the lake the weather was a bit cold because of the wind, so after eating my lunch there I returned to the hostel.
+On the way back I saw another fox, who looked at me, yawned and went away.
+Although tired of the gravel, this trip was completely worth it.</p>
+
+<h2 id="saying-goodbye">Saying goodbye</h2>
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_081-480.webp 480w,/assets/img/carretera_austral_081-800.webp 800w,/assets/img/carretera_austral_081-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_081.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_082-480.webp 480w,/assets/img/carretera_austral_082-800.webp 800w,/assets/img/carretera_austral_082-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/carretera_austral_082.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+</swiper-container>
+
+<div class="caption">
+    Fox and huemul.
+</div>
+
+<p>It was finally time to say goodbye to the Carretera Austral.
+The next morning I took the bus to Caleta Tortel to continue my trip by ferry.
+The day was cold and rainy making it more sad to leave, but the trip was going to continue to southern latitudes.
+The bus ride in the rain seemed a bit dangerous but the driver was careful and we had the chance to see a last huemul before leaving the Carretera Austral and arriving to Tortel.
+All in all, a proper way to say goodbye.</p>
+
+<h4 id="maps">Maps:</h4>
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10147945660" data-style="standard"></div>
+<script src="https://strava-embeds.com/embed.js"></script>
+
+<p><br /><br /></p>
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10137105655" data-style="standard"></div>
+<script src="https://strava-embeds.com/embed.js"></script>
+
+<p><br /><br /></p>
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10143880673" data-style="standard"></div>
+<script src="https://strava-embeds.com/embed.js"></script>
+
+<p><br /><br /></p>
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10154478093" data-style="standard"></div>
+<script src="https://strava-embeds.com/embed.js"></script>
+
+<p><br /><br /></p>
+
+<h4 id="more-pictures">More pictures:</h4>
+
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Days at Villa O'Higgins]]></summary></entry><entry><title type="html">Carretera Austral - The last ferry crossing</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/" rel="alternate" type="text/html" title="Carretera Austral - The last ferry crossing" /><published>2024-05-11T00:00:00+08:00</published><updated>2024-05-11T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter13</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1669,197 +2006,4 @@ Nonetheless, their cinnamon buns were amazing and their sandwiches replenished m
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A hiking and cycling day]]></summary></entry><entry><title type="html">Carretera Austral - The long wait</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter4/" rel="alternate" type="text/html" title="Carretera Austral - The long wait" /><published>2024-03-09T00:00:00+08:00</published><updated>2024-03-09T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter4</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter4/"><![CDATA[<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_011-480.webp 480w,/assets/img/carretera_austral_011-800.webp 800w,/assets/img/carretera_austral_011-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_011.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-</swiper-slide>
-  <swiper-slide>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_030-480.webp 480w,/assets/img/carretera_austral_030-800.webp 800w,/assets/img/carretera_austral_030-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_030.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-</swiper-slide>
-</swiper-container>
-
-<div class="caption">
-    Rosselot lake and confluence of Palena and Rosselot rivers.
-</div>
-
-<p>After a few days cycling with a loaded bike I had become aware of how many kms I could cover each day.
-So I estimated that going that getting to Puyuhuapi would be a breeze.
-This gave me some time to visit the places I had planned to visit the day before and couldn’t because of the rain.
-The owner of my accommodation let me leave the bags there, so I traveled light to a couple of places.
-First I visit the Rosselot lake.
-After the road through Pumalin, this was the second time I would ride on gravel, but this time the gravel was more similar to what I found further south.
-Getting to the lake didn’t take too much time and the gravel wasn’t that bad.
-There aren’t any walking path around the lake, but there is a small pier from where one can walk along the shore.
-The lake is surrounded by green mountains and many birds can be seen in the beach.
-After a walk and some pictures, I headed back the same road and then to the second place, which was the confluence between the Palena and Rosselot rivers.
-To get there I parked my bike next to the road and crossed a fence used to keep cattle off the road.
-The confluence is not as majestic as the ones of rivers south of Coyhaique, but still worth a short visit.</p>
-
-<h2 id="heading-to-puyuhuapi">Heading to Puyuhuapi</h2>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_012-480.webp 480w,/assets/img/carretera_austral_012-800.webp 800w,/assets/img/carretera_austral_012-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_012.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Puyuhuapi from Los Canelos Trail.
-</div>
-
-<p>After this short adventure on gravel, I returned to the hostel to get my bags and resume my trip south.
-The road to Puyuhuapi was flat with a couple of gravel sections where landslides went through the road.
-Since I started later than previous days, I had  a stop for lunch on the side of the road around Risopatron lake.
-By that time the cold head wind and passing clouds that were present leaving La Junta subsided and the day was now bright and sunny.
-Soon after lunch I arrived to Puyuhuapi, so I headed to a cafe for dessert.
-Puyuhuapi is a small town located in the coast of a fjord that is well protected from the sea, so the waters are quiet.
-The turn to use my tent had finally come, I installed myself in one the camping sites in the coast (one was closed and didn’t ask in the third one).
-I was alone in the camping, but the owner told that another cyclist left during the morning.</p>
-
-<p>Similar to La Junta, there is an easy hike to get a panoramic view of the town and the fjord.
-The trail goes through the side of a hill and is home of many canelo trees (hence the name of the trail).
-Since the days before were rainy and cattle usually use the trails, the top of the trail was muddy.
-Nonetheless, the views at the top were worth the dirt in the shoes.
-Back in town I walked around and bought bread, striking a conversation with the bakery owner.
-He shared with me some stories (like one were a cycling tourist was strangely attacked by a puma during winter) and advice for the road south.</p>
-
-<h2 id="long-wait">Long wait</h2>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_031-480.webp 480w,/assets/img/carretera_austral_031-800.webp 800w,/assets/img/carretera_austral_031-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_031.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Canelo tree.
-</div>
-
-<p>The morning next day was very cold, the coldest during this trip, with temperatures below zero.
-In the camping I had my first experience turning on the wood stove, but I didn’t succeeded without the help of the owner.
-The Queulat NP was closed a three days a week due to road work on the park, which meant I had to wait one more day around Puyuhuapi.
-So I decided to move to a camping site closer to the park (the camping site inside the park was also not working).
-These campings were just a few kms from Puyuhuapi, so I just took my time defrosting/drying my tent with an incipient sun light.
-Before leaving the town, I enjoyed a last visit to the cafe to have a kuchen and hot coffee.</p>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_013-480.webp 480w,/assets/img/carretera_austral_013-800.webp 800w,/assets/img/carretera_austral_013-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_013.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    The road next to the fjord.
-</div>
-
-<p>There were two working camping sites near the park, my first option was slightly after the entrance of the park (further away from Puyuhuapi).
-When I got there, the toilets and showers looked clean, but the sites were not quite ready and you can see that sheep had used them recently for protection.
-So I went to the other option, which was before and further back from the entrance to the park.
-The camping was really nice, with access to a small beach where later that day I saw a martin pescador (common kingfisher), and the next morning the fins of a couple of toninas (Chilean dolphins) going into the fjord for breakfast.</p>
-
-<p>So far my food planning had been very poor, I still have food that I brought from Santiago and hadn’t used my camping stove.
-Bread had been available throughout the trip, and restaurants/cafes were easy to find.
-However there weren’t any stores near the camping site, the closest one were I was able to get bread (actually quite big ones) was in front of the other camping site.
-Learning this from one of the workers in the camping site, meant I had to travel there and back once again.
-It turned out that this would be enough for breakfast and a couple of days to keep me fed on the bike.</p>
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_032-480.webp 480w,/assets/img/carretera_austral_032-800.webp 800w,/assets/img/carretera_austral_032-1400.webp 1400w," sizes="95vw" type="image/webp" />
-    
-    <img src="/assets/img/carretera_austral_032.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-  
-</figure>
-
-<div class="caption">
-    Sunset at Puyuhuapi fjord.
-</div>
-
-<p>Here I planned my next day, which was going to be quite hectic.
-The plan was to wake up early to arrive as soon as the NP opens, hike to the overlook and then continue my trip around noon.
-With 60 km separating the NP and the camping site I planned to stay the day after, including a gravel section with a “cuesta” that many people think is the most difficult of the whole trip, this was going to be the day I would arrive the latest to my next stop so far.
-Without artificial light in the camping, I went straight to sleep after enjoying an amazing sunset.</p>
-
-<h4 id="maps">Maps:</h4>
-
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10014575244" data-style="standard"></div>
-<script src="https://strava-embeds.com/embed.js"></script>
-
-<p><br /><br /></p>
-
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10020435369" data-style="standard"></div>
-<script src="https://strava-embeds.com/embed.js"></script>
-
-<p><br /><br /></p>
-
-<h4 id="more-pictures">More pictures:</h4>
-
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Feeling stuck]]></summary></entry></feed>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A hiking and cycling day]]></summary></entry></feed>
