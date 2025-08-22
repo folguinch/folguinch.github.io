@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2024-06-08T16:35:48+08:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Carretera Austral - What’s in my panniers</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter15/" rel="alternate" type="text/html" title="Carretera Austral - What’s in my panniers" /><published>2024-06-08T00:00:00+08:00</published><updated>2024-06-08T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter15</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter15/"><![CDATA[<p>To end up the Carretera Austral part of my trip, here is a list of the things I carried.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://folguinch.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://folguinch.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-22T15:13:06+09:00</updated><id>https://folguinch.github.io//feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Carretera Austral - What’s in my panniers</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter15/" rel="alternate" type="text/html" title="Carretera Austral - What’s in my panniers" /><published>2024-06-08T00:00:00+09:00</published><updated>2024-06-08T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter15</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter15/"><![CDATA[<p>To end up the Carretera Austral part of my trip, here is a list of the things I carried.
 For my trip I carried 4 panniers and a handlebar bag.
 The handlebar bag was mostly for my camera, camera spare battery and wallet.
 The tent was strapped on the rear rack, though with the gravel and friction the waterproof bag got a few holes.</p>
@@ -9,6 +9,8 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -17,7 +19,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_083-480.webp 480w,/assets/img/carretera_austral_083-800.webp 800w,/assets/img/carretera_austral_083-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_083.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_083.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -27,6 +29,8 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
 </swiper-slide>
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -35,7 +39,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_084-480.webp 480w,/assets/img/carretera_austral_084-800.webp 800w,/assets/img/carretera_austral_084-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_084.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_084.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -79,6 +83,8 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -87,7 +93,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_085-480.webp 480w,/assets/img/carretera_austral_085-800.webp 800w,/assets/img/carretera_austral_085-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_085.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_085.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -97,6 +103,8 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
 </swiper-slide>
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -105,7 +113,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_086-480.webp 480w,/assets/img/carretera_austral_086-800.webp 800w,/assets/img/carretera_austral_086-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_086.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_086.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -156,7 +164,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[List of things for the road]]></summary></entry><entry><title type="html">Carretera Austral - The end of the carretera</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/" rel="alternate" type="text/html" title="Carretera Austral - The end of the carretera" /><published>2024-05-18T00:00:00+08:00</published><updated>2024-05-18T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter14</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[List of things for the road]]></summary></entry><entry><title type="html">Carretera Austral - The end of the carretera</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/" rel="alternate" type="text/html" title="Carretera Austral - The end of the carretera" /><published>2024-05-18T00:00:00+09:00</published><updated>2024-05-18T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter14</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter14/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -164,7 +172,7 @@ The tent was strapped on the rear rack, though with the gravel and friction the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_072-480.webp 480w,/assets/img/carretera_austral_072-800.webp 800w,/assets/img/carretera_austral_072-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_072.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_072.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -195,7 +203,7 @@ However, the sun was coming out and the heat produced during the first climb of 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_073-480.webp 480w,/assets/img/carretera_austral_073-800.webp 800w,/assets/img/carretera_austral_073-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_073.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_073.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -226,7 +234,7 @@ This part follows a valley next to some lakes and lagoons, with the Lago Cisnes 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_074-480.webp 480w,/assets/img/carretera_austral_074-800.webp 800w,/assets/img/carretera_austral_074-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_074.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_074.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -262,7 +270,7 @@ Here I met once again the couples from the ferry, and as the days passed even so
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_075-480.webp 480w,/assets/img/carretera_austral_075-800.webp 800w,/assets/img/carretera_austral_075-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_075.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_075.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -291,7 +299,7 @@ To cross the lake many were waiting for at least a couple of days, even the trip
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_076-480.webp 480w,/assets/img/carretera_austral_076-800.webp 800w,/assets/img/carretera_austral_076-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_076.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_076.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -317,7 +325,7 @@ Finally the Australian girls who I met crossing from Hornopiren to Caleta Gonzal
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_077-480.webp 480w,/assets/img/carretera_austral_077-800.webp 800w,/assets/img/carretera_austral_077-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_077.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_077.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -344,7 +352,7 @@ Although everyone had different goals and places to go, sharing our adventures f
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_078-480.webp 480w,/assets/img/carretera_austral_078-800.webp 800w,/assets/img/carretera_austral_078-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_078.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_078.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -371,7 +379,7 @@ Once back in town, I prepared a good lunch and rested planning the next day.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_079-480.webp 480w,/assets/img/carretera_austral_079-800.webp 800w,/assets/img/carretera_austral_079-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_079.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_079.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -397,7 +405,7 @@ The sunny days however turned to cold and rain the next day, so I decided to jus
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_080-480.webp 480w,/assets/img/carretera_austral_080-800.webp 800w,/assets/img/carretera_austral_080-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_080.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_080.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -423,6 +431,8 @@ Although tired of the gravel, this trip was completely worth it.</p>
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -431,7 +441,7 @@ Although tired of the gravel, this trip was completely worth it.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_081-480.webp 480w,/assets/img/carretera_austral_081-800.webp 800w,/assets/img/carretera_austral_081-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_081.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_081.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -441,6 +451,8 @@ Although tired of the gravel, this trip was completely worth it.</p>
 </swiper-slide>
   <swiper-slide>
 
+
+
 <figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -449,7 +461,7 @@ Although tired of the gravel, this trip was completely worth it.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_082-480.webp 480w,/assets/img/carretera_austral_082-800.webp 800w,/assets/img/carretera_austral_082-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_082.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_082.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -493,7 +505,7 @@ All in all, a proper way to say goodbye.</p>
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Days at Villa O'Higgins]]></summary></entry><entry><title type="html">Carretera Austral - The last ferry crossing</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/" rel="alternate" type="text/html" title="Carretera Austral - The last ferry crossing" /><published>2024-05-11T00:00:00+08:00</published><updated>2024-05-11T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter13</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Days at Villa O'Higgins]]></summary></entry><entry><title type="html">Carretera Austral - The last ferry crossing</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/" rel="alternate" type="text/html" title="Carretera Austral - The last ferry crossing" /><published>2024-05-11T00:00:00+09:00</published><updated>2024-05-11T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter13</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter13/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -501,7 +513,7 @@ All in all, a proper way to say goodbye.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_066-480.webp 480w,/assets/img/carretera_austral_066-800.webp 800w,/assets/img/carretera_austral_066-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_066.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_066.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -527,7 +539,7 @@ Other than around Vargas lake or in Caleta Tortel, wild camping is the way to go
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_067-480.webp 480w,/assets/img/carretera_austral_067-800.webp 800w,/assets/img/carretera_austral_067-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_067.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_067.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -563,7 +575,7 @@ I chatted with him for a few minutes, luckily he was picked up by some guys goin
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_068-480.webp 480w,/assets/img/carretera_austral_068-800.webp 800w,/assets/img/carretera_austral_068-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_068.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_068.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -589,7 +601,7 @@ Then after the last curve, a few snow flakes started to fall, but the day was st
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_069-480.webp 480w,/assets/img/carretera_austral_069-800.webp 800w,/assets/img/carretera_austral_069-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_069.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_069.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -618,7 +630,7 @@ Other 4 cyclists were waiting there, I didn’t talk much with them there, but I
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_070-480.webp 480w,/assets/img/carretera_austral_070-800.webp 800w,/assets/img/carretera_austral_070-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_070.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_070.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -644,7 +656,7 @@ They continued down the road, while I decided to stay in that place next to the 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_071-480.webp 480w,/assets/img/carretera_austral_071-800.webp 800w,/assets/img/carretera_austral_071-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_071.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_071.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -675,7 +687,7 @@ So the next day I woke up early for the last day on the Carretera Austral</p>
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Nice roads and wild camping]]></summary></entry><entry><title type="html">Carretera Austral - Disconnecting from the world</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/" rel="alternate" type="text/html" title="Carretera Austral - Disconnecting from the world" /><published>2024-05-04T00:00:00+08:00</published><updated>2024-05-04T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter12</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Nice roads and wild camping]]></summary></entry><entry><title type="html">Carretera Austral - Disconnecting from the world</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/" rel="alternate" type="text/html" title="Carretera Austral - Disconnecting from the world" /><published>2024-05-04T00:00:00+09:00</published><updated>2024-05-04T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter12</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter12/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -683,7 +695,7 @@ So the next day I woke up early for the last day on the Carretera Austral</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_059-480.webp 480w,/assets/img/carretera_austral_059-800.webp 800w,/assets/img/carretera_austral_059-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_059.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_059.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -717,7 +729,7 @@ At this time of the morning and with the rain it was feeling a bit colder as I w
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_060-480.webp 480w,/assets/img/carretera_austral_060-800.webp 800w,/assets/img/carretera_austral_060-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_060.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_060.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -745,7 +757,7 @@ It is also in this descent that I saw the couple from Puerto Bertrand for the la
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_061-480.webp 480w,/assets/img/carretera_austral_061-800.webp 800w,/assets/img/carretera_austral_061-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_061.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_061.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -772,7 +784,7 @@ My arrival at the Refugio is welcomed by some dogs and horses.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_062-480.webp 480w,/assets/img/carretera_austral_062-800.webp 800w,/assets/img/carretera_austral_062-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_062.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_062.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -798,7 +810,7 @@ I took my time in this trail, as the sun was bright and a few clouds were passin
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_063-480.webp 480w,/assets/img/carretera_austral_063-800.webp 800w,/assets/img/carretera_austral_063-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_063.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_063.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -829,7 +841,7 @@ A bit disappointed, I decided to go back because I was walking alone and didn’
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_064-480.webp 480w,/assets/img/carretera_austral_064-800.webp 800w,/assets/img/carretera_austral_064-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_064.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_064.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -857,7 +869,7 @@ At night, I installed myself in one of the beds in the refuge.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_065-480.webp 480w,/assets/img/carretera_austral_065-800.webp 800w,/assets/img/carretera_austral_065-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_065.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_065.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -885,7 +897,7 @@ This bread would keep me going for the next couple of days.</p>
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Relaxing and rainy days]]></summary></entry><entry><title type="html">Carretera Austral - Following the Baker</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter11/" rel="alternate" type="text/html" title="Carretera Austral - Following the Baker" /><published>2024-04-27T00:00:00+08:00</published><updated>2024-04-27T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter11</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter11/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Relaxing and rainy days]]></summary></entry><entry><title type="html">Carretera Austral - Following the Baker</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter11/" rel="alternate" type="text/html" title="Carretera Austral - Following the Baker" /><published>2024-04-27T00:00:00+09:00</published><updated>2024-04-27T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter11</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter11/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -893,7 +905,7 @@ This bread would keep me going for the next couple of days.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_052-480.webp 480w,/assets/img/carretera_austral_052-800.webp 800w,/assets/img/carretera_austral_052-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_052.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_052.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -922,7 +934,7 @@ At the start is deep green/blue, which I follow just separated by trees and ever
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_053-480.webp 480w,/assets/img/carretera_austral_053-800.webp 800w,/assets/img/carretera_austral_053-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_053.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_053.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -954,7 +966,7 @@ As the road was getting further from the river, the landscape turned more browni
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_054-480.webp 480w,/assets/img/carretera_austral_054-800.webp 800w,/assets/img/carretera_austral_054-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_054.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_054.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -984,7 +996,7 @@ However, I stopped on the lookout next to the road for a view of the Baker canyo
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_055-480.webp 480w,/assets/img/carretera_austral_055-800.webp 800w,/assets/img/carretera_austral_055-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_055.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_055.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1017,7 +1029,7 @@ On my way south he recommended me to stop at Los Ñadis, instead of stopping at 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_056-480.webp 480w,/assets/img/carretera_austral_056-800.webp 800w,/assets/img/carretera_austral_056-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_056.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_056.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1046,7 +1058,7 @@ Either way when I passed by their restaurant it was closed.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_057-480.webp 480w,/assets/img/carretera_austral_057-800.webp 800w,/assets/img/carretera_austral_057-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_057.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_057.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1078,7 +1090,7 @@ At the end I wasn’t lucky with the huemules.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_058-480.webp 480w,/assets/img/carretera_austral_058-800.webp 800w,/assets/img/carretera_austral_058-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_058.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_058.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1109,7 +1121,7 @@ The last check of the weather forecast announced rain in the morning, so I moved
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[The road to Cochrane and a hike]]></summary></entry><entry><title type="html">Carretera Austral - Goodbye General Carrera Lake</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter10/" rel="alternate" type="text/html" title="Carretera Austral - Goodbye General Carrera Lake" /><published>2024-04-20T00:00:00+08:00</published><updated>2024-04-20T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter10</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter10/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[The road to Cochrane and a hike]]></summary></entry><entry><title type="html">Carretera Austral - Goodbye General Carrera Lake</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter10/" rel="alternate" type="text/html" title="Carretera Austral - Goodbye General Carrera Lake" /><published>2024-04-20T00:00:00+09:00</published><updated>2024-04-20T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter10</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter10/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1117,7 +1129,7 @@ The last check of the weather forecast announced rain in the morning, so I moved
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_048-480.webp 480w,/assets/img/carretera_austral_048-800.webp 800w,/assets/img/carretera_austral_048-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_048.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_048.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1148,7 +1160,7 @@ This is where the Carrera lake joins the Bertrand lake, and many people stop for
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_049-480.webp 480w,/assets/img/carretera_austral_049-800.webp 800w,/assets/img/carretera_austral_049-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_049.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_049.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1178,7 +1190,7 @@ On my way back kids were playing in the main square and some school kids were wa
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_050-480.webp 480w,/assets/img/carretera_austral_050-800.webp 800w,/assets/img/carretera_austral_050-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_050.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_050.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1210,7 +1222,7 @@ A couple also arrived to the hostel with a camper van, who I will see them again
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_051-480.webp 480w,/assets/img/carretera_austral_051-800.webp 800w,/assets/img/carretera_austral_051-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_051.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_051.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1238,7 +1250,7 @@ Although they said the bad weather may arrive here during the night, it didn’t
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Getting closer to the mighty Baker]]></summary></entry><entry><title type="html">Carretera Austral - The end of tarmac</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter9/" rel="alternate" type="text/html" title="Carretera Austral - The end of tarmac" /><published>2024-04-13T00:00:00+08:00</published><updated>2024-04-13T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter9</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter9/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[Getting closer to the mighty Baker]]></summary></entry><entry><title type="html">Carretera Austral - The end of tarmac</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter9/" rel="alternate" type="text/html" title="Carretera Austral - The end of tarmac" /><published>2024-04-13T00:00:00+09:00</published><updated>2024-04-13T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter9</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter9/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1246,7 +1258,7 @@ Although they said the bad weather may arrive here during the night, it didn’t
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_041-480.webp 480w,/assets/img/carretera_austral_041-800.webp 800w,/assets/img/carretera_austral_041-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_041.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_041.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1280,7 +1292,7 @@ The views where amazing though, with the soft rain in some parts of the valley p
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_042-480.webp 480w,/assets/img/carretera_austral_042-800.webp 800w,/assets/img/carretera_austral_042-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_042.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_042.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1313,7 +1325,7 @@ The road then was mostly dry but easy to ride and flat.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_043-480.webp 480w,/assets/img/carretera_austral_043-800.webp 800w,/assets/img/carretera_austral_043-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_043.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_043.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1347,7 +1359,7 @@ Given the amount of activities available I decided to extend my stay in the camp
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_044-480.webp 480w,/assets/img/carretera_austral_044-800.webp 800w,/assets/img/carretera_austral_044-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_044.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_044.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1373,7 +1385,7 @@ Other way to visit the marble islands is by kayak, also offered by other compani
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_045-480.webp 480w,/assets/img/carretera_austral_045-800.webp 800w,/assets/img/carretera_austral_045-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_045.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_045.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1401,7 +1413,7 @@ From this height I was able to see another condor flying over town.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_046-480.webp 480w,/assets/img/carretera_austral_046-800.webp 800w,/assets/img/carretera_austral_046-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_046.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_046.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1431,7 +1443,7 @@ One recommendation I wish I knew before extending my stay in the camping was to 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_047-480.webp 480w,/assets/img/carretera_austral_047-800.webp 800w,/assets/img/carretera_austral_047-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_047.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_047.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1475,7 +1487,7 @@ I then talked with the rangers about recommendations for other NPs further south
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[And we enter the gravel roads]]></summary></entry><entry><title type="html">Carretera Austral - A change of landscape</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter8/" rel="alternate" type="text/html" title="Carretera Austral - A change of landscape" /><published>2024-04-06T00:00:00+08:00</published><updated>2024-04-06T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter8</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter8/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[And we enter the gravel roads]]></summary></entry><entry><title type="html">Carretera Austral - A change of landscape</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter8/" rel="alternate" type="text/html" title="Carretera Austral - A change of landscape" /><published>2024-04-06T00:00:00+09:00</published><updated>2024-04-06T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter8</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter8/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1483,7 +1495,7 @@ I then talked with the rangers about recommendations for other NPs further south
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_038-480.webp 480w,/assets/img/carretera_austral_038-800.webp 800w,/assets/img/carretera_austral_038-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_038.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_038.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1519,7 +1531,7 @@ After a quick descent I arrived to El Blanco at a good time, so I stopped in one
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_024-480.webp 480w,/assets/img/carretera_austral_024-800.webp 800w,/assets/img/carretera_austral_024-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_024.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_024.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1546,7 +1558,7 @@ A few people in cars also stop at this place and further up the road there is a 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_040-480.webp 480w,/assets/img/carretera_austral_040-800.webp 800w,/assets/img/carretera_austral_040-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_040.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_040.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1575,7 +1587,7 @@ Once in Villa Cerro Castillo, I searched for a camping.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_025-480.webp 480w,/assets/img/carretera_austral_025-800.webp 800w,/assets/img/carretera_austral_025-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_025.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_025.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1604,7 +1616,7 @@ There is also a cash machine at the petrol station.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_026-480.webp 480w,/assets/img/carretera_austral_026-800.webp 800w,/assets/img/carretera_austral_026-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_026.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_026.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1630,7 +1642,7 @@ When I was getting there a pickup truck driven by park rangers brought me to the
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_027-480.webp 480w,/assets/img/carretera_austral_027-800.webp 800w,/assets/img/carretera_austral_027-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_027.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_027.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1655,7 +1667,7 @@ Missing on the lagoons, I will have to definitely return to Cerro Castillo.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_028-480.webp 480w,/assets/img/carretera_austral_028-800.webp 800w,/assets/img/carretera_austral_028-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_028.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_028.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1684,7 +1696,7 @@ Added were the almost 120 km to Puerto Rio Tranquilo, indicating that the next d
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A long day crossing the mountains]]></summary></entry><entry><title type="html">Carretera Austral - The Simpson river valley</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter7/" rel="alternate" type="text/html" title="Carretera Austral - The Simpson river valley" /><published>2024-03-30T00:00:00+08:00</published><updated>2024-03-30T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter7</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter7/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A long day crossing the mountains]]></summary></entry><entry><title type="html">Carretera Austral - The Simpson river valley</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter7/" rel="alternate" type="text/html" title="Carretera Austral - The Simpson river valley" /><published>2024-03-30T00:00:00+09:00</published><updated>2024-03-30T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter7</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter7/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1692,7 +1704,7 @@ Added were the almost 120 km to Puerto Rio Tranquilo, indicating that the next d
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_021-480.webp 480w,/assets/img/carretera_austral_021-800.webp 800w,/assets/img/carretera_austral_021-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_021.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_021.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1721,7 +1733,7 @@ Since the road was mostly descending towards Aysen, it took me no time to arrive
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_022-480.webp 480w,/assets/img/carretera_austral_022-800.webp 800w,/assets/img/carretera_austral_022-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_022.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_022.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1763,7 +1775,7 @@ At this point the wind started to appear, and so the wind turbines, making it co
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_023-480.webp 480w,/assets/img/carretera_austral_023-800.webp 800w,/assets/img/carretera_austral_023-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_023.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_023.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1798,7 +1810,7 @@ It turned out that I didn’t come back to Coyhaique, but it was good to know.</
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_037-480.webp 480w,/assets/img/carretera_austral_037-800.webp 800w,/assets/img/carretera_austral_037-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_037.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_037.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1824,7 +1836,7 @@ My plan for the next day was to ride the almost 100 km to Villa Cerro Castillo, 
 
 <h4 id="more-pictures">More pictures:</h4>
 
-<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A day for waterfalls and a climb]]></summary></entry><entry><title type="html">Carretera Austral - Time to visit friends</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter6/" rel="alternate" type="text/html" title="Carretera Austral - Time to visit friends" /><published>2024-03-23T00:00:00+08:00</published><updated>2024-03-23T00:00:00+08:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter6</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter6/"><![CDATA[<figure>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/faoch/albums/72177720313509568" title="Carretera Austral"><img src="https://live.staticflickr.com/65535/53409424323_e204897c05_z.jpg" width="640" height="480" alt="Carretera Austral" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content><author><name></name></author><category term="travel" /><category term="cycling" /><category term="trips" /><category term="carretera-austral" /><summary type="html"><![CDATA[A day for waterfalls and a climb]]></summary></entry><entry><title type="html">Carretera Austral - Time to visit friends</title><link href="https://folguinch.github.io//blog/2024/carretera_austral_chapter6/" rel="alternate" type="text/html" title="Carretera Austral - Time to visit friends" /><published>2024-03-23T00:00:00+09:00</published><updated>2024-03-23T00:00:00+09:00</updated><id>https://folguinch.github.io//blog/2024/carretera_austral_chapter6</id><content type="html" xml:base="https://folguinch.github.io//blog/2024/carretera_austral_chapter6/"><![CDATA[<figure>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -1832,7 +1844,7 @@ My plan for the next day was to ride the almost 100 km to Villa Cerro Castillo, 
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_035-480.webp 480w,/assets/img/carretera_austral_035-800.webp 800w,/assets/img/carretera_austral_035-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_035.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_035.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1860,7 +1872,7 @@ With all done, it was time to get back on the saddle.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_018-480.webp 480w,/assets/img/carretera_austral_018-800.webp 800w,/assets/img/carretera_austral_018-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_018.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_018.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1887,7 +1899,7 @@ Once in Mañihuales I got lunch while I waited for my friend to pick me up in hi
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_019-480.webp 480w,/assets/img/carretera_austral_019-800.webp 800w,/assets/img/carretera_austral_019-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_019.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_019.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1909,7 +1921,7 @@ Once in Mañihuales I got lunch while I waited for my friend to pick me up in hi
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_036-480.webp 480w,/assets/img/carretera_austral_036-800.webp 800w,/assets/img/carretera_austral_036-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_036.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_036.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -1934,7 +1946,7 @@ We took a detour on our way back to visit a waterfall for a lunch/picnic.</p>
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_020-480.webp 480w,/assets/img/carretera_austral_020-800.webp 800w,/assets/img/carretera_austral_020-1400.webp 1400w," sizes="95vw" type="image/webp" />
+      <source class="responsive-img-srcset" srcset="/assets/img/carretera_austral_020.jpg" sizes="95vw" />
     
     <img src="/assets/img/carretera_austral_020.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>

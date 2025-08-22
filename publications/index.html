@@ -37,7 +37,6 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
-<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
 <!-- Bootstrap Table -->
@@ -54,21 +53,31 @@
 
 <!-- Styles -->
 
+<!-- pseudocode -->
+
+
+
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%AD&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="https://folguinch.github.io//publications/">
 
 <!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
 
   <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
-  <script src="/assets/js/theme.js?0afe9f0ae161375728f7bcc5eb5b4ab4"></script>
+  <script>
+    initTheme();
+  </script>
 
 
 <!-- GeoJSON support via Leaflet -->
 
 
 <!-- diff2html -->
+
+
+<!-- GitHub Project Introduction Section -->
 
 
 
@@ -156,7 +165,16 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
               
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/blog/">Blog
@@ -174,17 +192,7 @@
           
             
               
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/projects/">Projects
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
+                
                 <li class="nav-item active">
                   
                   <a class="nav-link" href="/publications/">Publications
@@ -198,6 +206,19 @@
           
             
               
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/cv/">CV
@@ -209,6 +230,7 @@
           
             
               
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/repositories/">Repositories
@@ -220,14 +242,21 @@
           
             
           
-            
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
           
           
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           
@@ -249,7 +278,9 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        <div class="post">
+        
+
+<div class="post">
   <header class="post-header">
     
     <h1 class="post-title">Publications</h1>
@@ -258,11 +289,18 @@
 
   <article>
     <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+<script src="/assets/js/bibsearch.js?1bc438ca9037884cc579601c09afd847" type="module"></script>
+
+<p><input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter"></p>
+
 <div class="publications">
 
 <h3> First author </h3>
 
-  <h2 class="year">2024</h2>
+  <h2 class="year">2025</h2>
   
 
 
@@ -271,7 +309,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -287,26 +325,28 @@
       
       <em>Fernando A.
             Olguin</em>, Patricio
-            Sanhueza
-          , Huei-Ru Vivien
-            Chen
-          , and
+            Sanhueza, Huei-Ru Vivien
+            Chen, and
         <span class="more-authors" title="click to view 9 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '9 more authors' ? 'Xing Lu, Yoko Oya, Qizhou Zhang, Adam Ginsburg, Kotomi Taniguchi, Shanghuo Li, Kaho Morii, Takeshi Sakai, Fumitaka Nakamura' : '9 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">9 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -326,6 +366,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/2041-8213/ad1100" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -339,8 +383,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -358,7 +412,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -374,26 +428,28 @@
       
       <em>Fernando A.
             Olguin</em>, Patricio
-            Sanhueza
-          , Adam
-            Ginsburg
-          , and
+            Sanhueza, Adam
+            Ginsburg, and
         <span class="more-authors" title="click to view 5 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '5 more authors' ? 'Huei-Ru Vivien Chen, Qizhou Zhang, Shanghuo Li, Xing Lu, Takeshi Sakai' : '5 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">5 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -413,6 +469,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ac5bd8" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -426,8 +486,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -445,7 +515,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -461,26 +531,28 @@
       
       <em>Fernando A.
             Olguin</em>, Patricio
-            Sanhueza
-          , Andrés E.
-            Guzmán
-          , and
+            Sanhueza, Andrés E.
+            Guzmán, and
         <span class="more-authors" title="click to view 10 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '10 more authors' ? 'Xing Lu, Kazuya Saigo, Qizhou Zhang, Andrea Silva, Huei-Ru Vivien Chen, Shanghuo Li, Satoshi Ohashi, Fumitaka Nakamura, Takeshi Sakai, Benjamin Wu' : '10 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">10 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -500,6 +572,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/abde3f" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -513,8 +589,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -533,7 +619,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -550,10 +636,13 @@
       <em>Fernando
             Olguin</em>, and Patricio
             Sanhueza
-          
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -573,6 +662,10 @@
       
       
       
+        <a href="https://doi.org/10.5281/zenodo.4302846" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -586,8 +679,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -601,7 +704,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -617,26 +720,28 @@
       
       <em>F. A.
             Olguin</em>, M. G.
-            Hoare
-          , K. G.
-            Johnston
-          , and
+            Hoare, K. G.
+            Johnston, and
         <span class="more-authors" title="click to view 13 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '13 more authors' ? 'F. Motte, H. -R. V. Chen, H. Beuther, J. C. Mottram, A. Ahmadi, C. Gieser, D. Semenov, T. Peters, A. Palau, P. D. Klaassen, R. Kuiper, Á. Sánchez-Monge, Th Henning' : '13 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">13 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -656,6 +761,10 @@
       
       
       
+        <a href="https://doi.org/10.1093/mnras/staa2406" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -669,8 +778,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -689,7 +808,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -705,26 +824,28 @@
       
       <em>F. A.
             Olguin</em>, M. G.
-            Hoare
-          , H. E.
-            Wheelwright
-          , and
+            Hoare, H. E.
+            Wheelwright, and
         <span class="more-authors" title="click to view 5 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '5 more authors' ? 'S. J. Clay, W. -J. de Wit, I. Rafiq, S. Pezzuto, S. Molinari' : '5 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">5 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -744,6 +865,10 @@
       
       
       
+        <a href="https://doi.org/10.1093/mnras/stv401" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -757,8 +882,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -773,13 +908,1306 @@
 
 <h3> Collaborations </h3>
 
+  <h2 class="year">2025</h2>
+  <h2 class="bibliography">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2025ApJ...983...37S" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Digging Into the Interior of Hot Cores with ALMA (DIHCA). V. Deuterium Fractionation of Methanol</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Takeshi
+            Sakai, Nobuhito
+            Shiomura, Patricio
+            Sanhueza, and
+        <span class="more-authors" title="click to view 16 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '16 more authors' ? 'Kenji Furuya, Fernando A. Olguin, Ken’ichi Tatematsu, Yuri Aikawa, Kotomi Taniguchi, Huei-Ru Vivien Chen, Kaho Morii, Fumitaka Nakamura, Shanghuo Li, Xing Lu, Qizhou Zhang, Tomoya Hirota, Kousuke Ishihara, Hongda Ke, Nami Sakai, Satoshi Yamamoto' : '16 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">16 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Apr 2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/adba5a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2025A&amp;A...695A..51B" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Hierarchical accretion flow from the G351 infrared dark filament to its central cores</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      H.
+            Beuther, F. A.
+            Olguin, P.
+            Sanhueza, and
+        <span class="more-authors" title="click to view 2 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '2 more authors' ? 'N. Cunningham, A. Ginsburg' : '2 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">2 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>A&amp;A</em>,  Mar 2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1051/0004-6361/202452754" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2025ApJ...980...87S" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Magnetic Fields in Massive Star-forming Regions (MagMaR). V. The Magnetic Field at the Onset of High-mass Star Formation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Patricio
+            Sanhueza, Junhao
+            Liu, Kaho
+            Morii, and
+        <span class="more-authors" title="click to view 36 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '36 more authors' ? 'Josep Miquel Girart, Qizhou Zhang, Ian W. Stephens, James M. Jackson, Paulo C. Cortés, Patrick M. Koch, Claudia J. Cyganowski, Piyali Saha, Henrik Beuther, Suinan Zhang, Maria T. Beltrán, Yu Cheng, Fernando A. Olguin, Xing Lu, Spandan Choudhury, Kate Pattle, Manuel Fernández-López, Jihye Hwang, Ji-hyun Kang, Janik Karoly, Adam Ginsburg, A. -Ran Lyo, Kotomi Taniguchi, Wenyu Jiao, Chakali Eswaraiah, Qiu-yi Luo, Jia-Wei Wang, Benoı̂t Commerçon, Shanghuo Li, Fengwei Xu, Huei-Ru Vivien Chen, Luis A. Zapata, Eun Jung Chung, Fumitaka Nakamura, Sandhyarani Panigrahy, Takeshi Sakai' : '36 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">36 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Feb 2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad9d40" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2025A&amp;A...694A..24M" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">ALMA-IMF: XVI. Mass-averaged temperature of cores and protostellar luminosities in the ALMA-IMF protoclusters</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      F.
+            Motte, Y.
+            Pouteau, T.
+            Nony, and
+        <span class="more-authors" title="click to view 34 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '34 more authors' ? 'P. Dell’Ova, A. Gusdorf, N. Brouillet, A. M. Stutz, S. Bontemps, A. Ginsburg, T. Csengeri, A. Men’shchikov, M. Valeille-Manet, F. Louvet, M. Bonfand, R. Galván-Madrid, R. H. Álvarez-Gutiérrez, M. Armante, L. Bronfman, H. -R. V. Chen, N. Cunningham, D. Dı́az-González, P. Didelon, M. Fernández-López, F. Herpin, N. Kessler, A. Koley, B. Lefloch, N. Le Nestour, H. -L. Liu, E. Moraux, Q. Nguyen Luong, F. Olguin, J. Salinas, N. A. Sandoval-Garrido, P. Sanhueza, R. Veyry, T. Yoo' : '34 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">34 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>A&amp;A</em>,  Feb 2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1051/0004-6361/202451931" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+
+
   <h2 class="year">2024</h2>
   <h2 class="bibliography">2024</h2>
 <ol class="bibliography">
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...974..257Z" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Magnetic Fields in Massive Star-forming Regions (MagMaR). IV. Tracing the Magnetic Fields in the O-type Protostellar System IRAS 16547–4247</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Luis A.
+            Zapata, Manuel
+            Fernández-López, Patricio
+            Sanhueza, and
+        <span class="more-authors" title="click to view 24 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '24 more authors' ? 'Josep M. Girart, Luis F. Rodrı́guez, Paulo Cortés, Patrick Koch, Maria T. Beltrán, Kate Pattle, Henrik Beuther, Piyali Saha, Wenyu Jiao, Fengwei Xu, Xing Walker Lu, Fernando Olguin, Shanghuo Li, Ian W. Stephens, Ji-hyun Kang, Yu Cheng, Spandan Choudhury, Kaho Morii, Eun Jung Chung, Jia-Wei Wang, Jihye Hwang, A. -Ran Lyo, Q. Zhang, Huei-Ru Vivien Chen' : '24 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">24 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Oct 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad701d" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...974...95I" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Digging into the Interior of Hot Cores with ALMA (DIHCA). IV. Fragmentation in High-mass Star-forming Clumps</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Kousuke
+            Ishihara, Patricio
+            Sanhueza, Fumitaka
+            Nakamura, and
+        <span class="more-authors" title="click to view 10 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '10 more authors' ? 'Masao Saito, Huei-Ru Vivien Chen, Shanghuo Li, Fernando Olguin, Kotomi Taniguchi, Kaho Morii, Xing Lu, Qiu-yi Luo, Takeshi Sakai, Qizhou Zhang' : '10 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">10 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Oct 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad630f" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...972L...6S" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Magnetic Fields in Massive Star-forming Regions (MagMaR): Unveiling an Hourglass Magnetic Field in G333.46–0.16 Using ALMA</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Piyali
+            Saha, Patricio
+            Sanhueza, Marco
+            Padovani, and
+        <span class="more-authors" title="click to view 33 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '33 more authors' ? 'Josep M. Girart, Paulo C. Cortés, Kaho Morii, Junhao Liu, Á. Sánchez-Monge, Daniele Galli, Shantanu Basu, Patrick M. Koch, Maria T. Beltrán, Shanghuo Li, Henrik Beuther, Ian W. Stephens, Fumitaka Nakamura, Qizhou Zhang, Wenyu Jiao, M. Fernández-López, Jihye Hwang, Eun Jung Chung, Kate Pattle, Luis A. Zapata, Fengwei Xu, Fernando A. Olguin, Ji-hyun Kang, Janik Karoly, Chi-Yan Law, Jia-Wei Wang, Timea Csengeri, Xing Lu, Yu Cheng, Jongsoo Kim, Spandan Choudhury, Huei-Ru Vivien Chen, Charles L. H. Hull' : '33 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">33 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJL</em>,  Sep 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/2041-8213/ad660c" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...972..115C" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">MagMaR III—Resisting the Pressure, Is the Magnetic Field Overwhelmed in NGC6334I?</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Paulo C.
+            Cortés, Josep M.
+            Girart, Patricio
+            Sanhueza, and
+        <span class="more-authors" title="click to view 23 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '23 more authors' ? 'Junhao Liu, Sergio Martı́n, Ian W. Stephens, Henrik Beuther, Patrick M. Koch, M. Fernández-López, Álvaro Sánchez-Monge, Jia-Wei Wang, Kaho Morii, Shanghuo Li, Piyali Saha, Qizhou Zhang, David Rebolledo, Luis A. Zapata, Ji-hyun Kang, Wenyu Jiao, Jongsoo Kim, Yu Cheng, Jihye Hwang, Eun Jung Chung, Spandan Choudhury, A. -Ran Lyo, Fernando Olguin' : '23 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">23 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Sep 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad59a7" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024A&amp;A...689A..74A" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">ALMA-IMF: XIII. N_2H^+ kinematic analysis of the intermediate protocluster G353.41</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      R. H.
+            Álvarez-Gutiérrez, A. M.
+            Stutz, N.
+            Sandoval-Garrido, and
+        <span class="more-authors" title="click to view 23 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '23 more authors' ? 'F. Louvet, F. Motte, R. Galván-Madrid, N. Cunningham, P. Sanhueza, M. Bonfand, S. Bontemps, A. Gusdorf, A. Ginsburg, T. Csengeri, S. D. Reyes, J. Salinas, T. Baug, L. Bronfman, G. Busquet, D. J. Dı́az-González, M. Fernandez-Lopez, A. Guzmán, A. Koley, H. -L. Liu, F. A. Olguin, M. Valeille-Manet, F. Wyrowski' : '23 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">23 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>A&amp;A</em>,  Sep 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1051/0004-6361/202450321" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024A&amp;A...687A.217D" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">ALMA-IMF. XII. Point-process mapping of 15 massive protoclusters</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      P.
+            Dell’Ova, F.
+            Motte, A.
+            Gusdorf, and
+        <span class="more-authors" title="click to view 29 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '29 more authors' ? 'Y. Pouteau, A. Men’shchikov, D. Dı́az-González, R. Galván-Madrid, P. Lesaffre, P. Didelon, A. M. Stutz, A. P. M. Towner, K. Marsh, A. Whitworth, M. Armante, M. Bonfand, T. Nony, M. Valeille-Manet, S. Bontemps, T. Csengeri, N. Cunningham, A. Ginsburg, F. Louvet, R. H. Álvarez-Gutiérrez, N. Brouillet, J. Salinas, P. Sanhueza, F. Nakamura, Q. Nguyen Luong, T. Baug, M. Fernández-López, H. -L. Liu, F. Olguin' : '29 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">29 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>A&amp;A</em>,  Jul 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1051/0004-6361/202348984" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024A&amp;A...687A.163B" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">ALMA-IMF. XI. The sample of hot core candidates: A rich population of young high-mass protostars unveiled by the emission of methyl formate</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      M.
+            Bonfand, T.
+            Csengeri, S.
+            Bontemps, and
+        <span class="more-authors" title="click to view 28 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '28 more authors' ? 'N. Brouillet, F. Motte, F. Louvet, A. Ginsburg, N. Cunningham, R. Galván-Madrid, F. Herpin, F. Wyrowski, M. Valeille-Manet, A. M. Stutz, J. Di Francesco, A. Gusdorf, M. Fernández-López, B. Lefloch, H. -L. Liu, P. Sanhueza, R. H. Álvarez-Gutiérrez, F. Olguin, T. Nony, A. Lopez-Sepulcre, P. Dell’Ova, Y. Pouteau, D. Jeff, H. -R. V. Chen, M. Armante, A. Towner, L. Bronfman, N. Kessler' : '28 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">28 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>A&amp;A</em>,  Jul 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1051/0004-6361/202347856" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024MNRAS.530.5192E" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">A study of Galactic Plane Planck Galactic cold clumps observed by SCOPE and the JCMT Plane Survey</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      D. J.
+            Eden, Tie
+            Liu, T. J. T.
+            Moore, and
+        <span class="more-authors" title="click to view 32 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '32 more authors' ? 'J. Di Francesco, G. Fuller, Kee-Tae Kim, Di Li, S. -Y. Liu, R. Plume, Ken’ichi Tatematsu, M. A. Thompson, Y. Wu, L. Bronfman, H. M. Butner, M. J. Currie, G. Garay, P. F. Goldsmith, N. Hirano, D. Johnstone, M. Juvela, S. -P. Lai, C. W. Lee, E. E. Mannfors, F. Olguin, K. Pattle, Geumsook Park, D. Polychroni, M. Rawlings, A. J. Rigby, P. Sanhueza, A. Traficante, J. S. Urquhart, B. Weferling, G. J. White, R. K. Yadav' : '32 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">32 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>MNRAS</em>,  Jun 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1093/mnras/stae1179" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...966..171M" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">The ALMA Survey of 70 \ensuremathμm Dark High-mass Clumps in Early Stages (ASHES). XI. Statistical Study of Early Fragmentation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Kaho
+            Morii, Patricio
+            Sanhueza, Qizhou
+            Zhang, and
+        <span class="more-authors" title="click to view 9 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '9 more authors' ? 'Fumitaka Nakamura, Shanghuo Li, Giovanni Sabatini, Fernando A. Olguin, Henrik Beuther, Daniel Tafoya, Natsuko Izumi, Ken’ichi Tatematsu, Takeshi Sakai' : '9 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">9 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  May 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad32d0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -794,28 +2222,29 @@
 
       
       Shanghuo
-            Li
-          , Patricio
-            Sanhueza
-          , Henrik
-            Beuther
-          , and
+            Li, Patricio
+            Sanhueza, Henrik
+            Beuther, and
         <span class="more-authors" title="click to view 13 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '13 more authors' ? 'Huei-Ru Vivien Chen, Rolf Kuiper, Fernando A. Olguin, Ralph E. Pudritz, Ian W. Stephens, Qizhou Zhang, Fumitaka Nakamura, Xing Lu, Rajika L. Kuruwita, Takeshi Sakai, Thomas Henning, Kotomi Taniguchi, Fei Li' : '13 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">13 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -835,6 +2264,10 @@
       
       
       
+        <a href="https://doi.org/10.1038/s41550-023-02181-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -848,8 +2281,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -863,7 +2306,106 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="2024ApJ...963..163I" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">The ALMA Survey of 70 \ensuremathμm Dark High-mass Clumps in Early Stages (ASHES). X. Hot Gas Reveals Deeply Embedded Star Formation</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Natsuko
+            Izumi, Patricio
+            Sanhueza, Patrick M.
+            Koch, and
+        <span class="more-authors" title="click to view 10 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '10 more authors' ? 'Xing Lu, Shanghuo Li, Giovanni Sabatini, Fernando A. Olguin, Qizhou Zhang, Fumitaka Nakamura, Ken’ichi Tatematsu, Kaho Morii, Takeshi Sakai, Daniel Tafoya' : '10 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">10 more authors</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>ApJ</em>,  Mar 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.3847/1538-4357/ad18c6" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -878,28 +2420,29 @@
 
       
       A. P. M.
-            Towner
-          , A.
-            Ginsburg
-          , P.
-            Dell’Ova
-          , and
+            Towner, A.
+            Ginsburg, P.
+            Dell’Ova, and
         <span class="more-authors" title="click to view 24 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '24 more authors' ? 'A. Gusdorf, S. Bontemps, T. Csengeri, R. Galván-Madrid, F. K. Louvet, F. Motte, P. Sanhueza, A. M. Stutz, J. Bally, T. Baug, H. -R. V. Chen, N. Cunningham, M. Fernández-López, H. -L. Liu, X. Lu, T. Nony, M. Valeille-Manet, B. Wu, R. H. Álvarez-Gutiérrez, M. Bonfand, J. Di Francesco, Q. Nguyen-Luong, F. Olguin, A. P. Whitworth' : '24 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">24 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -919,6 +2462,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ad0786" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -932,8 +2479,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -953,7 +2510,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -968,28 +2525,29 @@
 
       
       N.
-            Cunningham
-          , A.
-            Ginsburg
-          , R.
-            Galván-Madrid
-          , and
+            Cunningham, A.
+            Ginsburg, R.
+            Galván-Madrid, and
         <span class="more-authors" title="click to view 30 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '30 more authors' ? 'F. Motte, T. Csengeri, A. M. Stutz, M. Fernández-López, R. H. Álvarez-Gutiérrez, M. Armante, T. Baug, M. Bonfand, S. Bontemps, J. Braine, N. Brouillet, G. Busquet, D. J. Dı́az-González, J. Di Francesco, A. Gusdorf, F. Herpin, H. Liu, A. López-Sepulcre, F. Louvet, X. Lu, L. Maud, T. Nony, F. A. Olguin, Y. Pouteau, R. Rivera-Soto, N. A. Sandoval-Garrido, P. Sanhueza, K. Tatematsu, A. P. M. Towner, M. Valeille-Manet' : '30 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">30 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1009,6 +2567,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202245429" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1022,8 +2584,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1037,7 +2609,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1052,28 +2624,29 @@
 
       
       Kaho
-            Morii
-          , Patricio
-            Sanhueza
-          , Fumitaka
-            Nakamura
-          , and
+            Morii, Patricio
+            Sanhueza, Fumitaka
+            Nakamura, and
         <span class="more-authors" title="click to view 13 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '13 more authors' ? 'Qizhou Zhang, Giovanni Sabatini, Henrik Beuther, Xing Lu, Shanghuo Li, Guido Garay, James M. Jackson, Fernando A. Olguin, Daniel Tafoya, Ken’ichi Tatematsu, Natsuko Izumi, Takeshi Sakai, Andrea Silva' : '13 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">13 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1093,6 +2666,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/acccea" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1106,8 +2683,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1121,7 +2708,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1136,10 +2723,8 @@
 
       
       Kotomi
-            Taniguchi
-          , Patricio
-            Sanhueza
-          , <em>Fernando A.
+            Taniguchi, Patricio
+            Sanhueza, <em>Fernando A.
             Olguin</em>, and
         <span class="more-authors" title="click to view 8 more authors" onclick="
               var element = $(this);
@@ -1147,16 +2732,20 @@
               var more_authors_text = element.text() == '8 more authors' ? 'Prasanta Gorai, Ankan Das, Fumitaka Nakamura, Masao Saito, Qizhou Zhang, Xing Lu, Shanghuo Li, Huei-Ru Vivien Chen' : '8 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">8 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1176,6 +2765,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/acca1d" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1189,8 +2782,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1204,7 +2807,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1219,28 +2822,29 @@
 
       
       Y.
-            Pouteau
-          , F.
-            Motte
-          , T.
-            Nony
-          , and
+            Pouteau, F.
+            Motte, T.
+            Nony, and
         <span class="more-authors" title="click to view 35 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '35 more authors' ? 'M. González, I. Joncour, J. -F. Robitaille, G. Busquet, R. Galván-Madrid, A. Gusdorf, P. Hennebelle, A. Ginsburg, T. Csengeri, P. Sanhueza, P. Dell’Ova, A. M. Stutz, A. P. M. Towner, N. Cunningham, F. Louvet, A. Men’shchikov, M. Fernández-López, N. Schneider, M. Armante, J. Bally, T. Baug, M. Bonfand, S. Bontemps, L. Bronfman, N. Brouillet, D. Dı́az-González, F. Herpin, B. Lefloch, H. -L. Liu, X. Lu, F. Nakamura, Q. Nguyen-Luong, F. Olguin, K. Tatematsu, M. Valeille-Manet' : '35 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">35 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1260,6 +2864,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202244776" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1273,8 +2881,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1288,7 +2906,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1303,28 +2921,29 @@
 
       
       T.
-            Nony
-          , R.
-            Galván-Madrid
-          , F.
-            Motte
-          , and
+            Nony, R.
+            Galván-Madrid, F.
+            Motte, and
         <span class="more-authors" title="click to view 24 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '24 more authors' ? 'Y. Pouteau, N. Cunningham, F. Louvet, A. M. Stutz, B. Lefloch, S. Bontemps, N. Brouillet, A. Ginsburg, I. Joncour, F. Herpin, P. Sanhueza, T. Csengeri, A. P. M. Towner, M. Bonfand, M. Fernández-López, T. Baug, L. Bronfman, G. Busquet, J. Di Francesco, A. Gusdorf, X. Lu, F. Olguin, M. Valeille-Manet, A. P. Whitworth' : '24 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">24 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1344,6 +2963,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202244762" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1357,8 +2980,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1372,7 +3005,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1387,28 +3020,29 @@
 
       
       Adam
-            Ginsburg
-          , Brett A.
-            McGuire
-          , Patricio
-            Sanhueza
-          , and
+            Ginsburg, Brett A.
+            McGuire, Patricio
+            Sanhueza, and
         <span class="more-authors" title="click to view 6 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '6 more authors' ? 'Fernando Olguin, Luke T. Maud, Kei E. I. Tanaka, Yichen Zhang, Henrik Beuther, Nick Indriolo' : '6 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">6 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1428,6 +3062,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ac9f4a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1441,8 +3079,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1462,7 +3110,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1477,28 +3125,29 @@
 
       
       F.
-            Motte
-          , S.
-            Bontemps
-          , T.
-            Csengeri
-          , and
+            Motte, S.
+            Bontemps, T.
+            Csengeri, and
         <span class="more-authors" title="click to view 61 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '61 more authors' ? 'Y. Pouteau, F. Louvet, A. M. Stutz, N. Cunningham, A. López-Sepulcre, N. Brouillet, R. Galván-Madrid, A. Ginsburg, L. Maud, A. Men’shchikov, F. Nakamura, T. Nony, P. Sanhueza, R. H. Álvarez-Gutiérrez, M. Armante, T. Baug, M. Bonfand, G. Busquet, E. Chapillon, D. Dı́az-González, M. Fernández-López, A. E. Guzmán, F. Herpin, H. -L. Liu, F. Olguin, A. P. M. Towner, J. Bally, C. Battersby, J. Braine, L. Bronfman, H. -R. V. Chen, P. Dell’Ova, J. Di Francesco, M. González, A. Gusdorf, P. Hennebelle, N. Izumi, I. Joncour, Y. -N. Lee, B. Lefloch, P. Lesaffre, X. Lu, K. M. Menten, R. Mignon-Risse, J. Molet, E. Moraux, L. Mundy, Q. Nguyen Luong, N. Reyes, S. D. Reyes Reyes, J. -F. Robitaille, E. Rosolowsky, N. A. Sandoval-Garrido, F. Schuller, B. Svoboda, K. Tatematsu, B. Thomasson, D. Walker, B. Wu, A. P. Whitworth, F. Wyrowski' : '61 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">61 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1518,6 +3167,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202141677" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1531,8 +3184,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1546,7 +3209,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1561,28 +3224,29 @@
 
       
       A.
-            Ginsburg
-          , T.
-            Csengeri
-          , R.
-            Galván-Madrid
-          , and
+            Ginsburg, T.
+            Csengeri, R.
+            Galván-Madrid, and
         <span class="more-authors" title="click to view 50 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '50 more authors' ? 'N. Cunningham, R. H. Álvarez-Gutiérrez, T. Baug, M. Bonfand, S. Bontemps, G. Busquet, D. J. Dı́az-González, M. Fernández-López, A. Guzmán, F. Herpin, H. Liu, A. López-Sepulcre, F. Louvet, L. Maud, F. Motte, F. Nakamura, T. Nony, F. A. Olguin, Y. Pouteau, P. Sanhueza, A. M. Stutz, A. P. M. Towner,  ALMA-IMF Consortium, M. Armante, C. Battersby, L. Bronfman, J. Braine, N. Brouillet, E. Chapillon, J. Di Francesco, A. Gusdorf, N. Izumi, I. Joncour, X. Walker Lu, A. Men’shchikov, K. M. Menten, E. Moraux, J. Molet, L. Mundy, Q. Nguyen Luong, S. D. Reyes-Reyes, J. Robitaille, E. Rosolowsky, N. A. Sandoval-Garrido, B. Svoboda, K. Tatematsu, D. L. Walker, A. Whitworth, B. Wu, F. Wyrowski' : '50 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">50 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1602,6 +3266,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202141681" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1615,8 +3283,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1630,7 +3308,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1645,28 +3323,29 @@
 
       
       Y.
-            Pouteau
-          , F.
-            Motte
-          , T.
-            Nony
-          , and
+            Pouteau, F.
+            Motte, T.
+            Nony, and
         <span class="more-authors" title="click to view 36 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '36 more authors' ? 'R. Galván-Madrid, A. Men’shchikov, S. Bontemps, J. -F. Robitaille, F. Louvet, A. Ginsburg, F. Herpin, A. López-Sepulcre, P. Dell’Ova, A. Gusdorf, P. Sanhueza, A. M. Stutz, N. Brouillet, B. Thomasson, M. Armante, T. Baug, M. Bonfand, G. Busquet, T. Csengeri, N. Cunningham, M. Fernández-López, H. -L. Liu, F. Olguin, A. P. M. Towner, J. Bally, J. Braine, L. Bronfman, I. Joncour, M. González, P. Hennebelle, X. Lu, K. M. Menten, E. Moraux, K. Tatematsu, D. Walker, A. P. Whitworth' : '36 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">36 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1686,6 +3365,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/202142951" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1699,8 +3382,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1720,7 +3413,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1735,28 +3428,29 @@
 
       
       Paulo C.
-            Cortés
-          , Patricio
-            Sanhueza
-          , Martin
-            Houde
-          , and
+            Cortés, Patricio
+            Sanhueza, Martin
+            Houde, and
         <span class="more-authors" title="click to view 13 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '13 more authors' ? 'Sergio Martı́n, Charles L. H. Hull, Josep M. Girart, Qizhou Zhang, Manuel Fernandez-Lopez, Luis A. Zapata, Ian W. Stephens, Hua-bai Li, Benjamin Wu, Fernando Olguin, Xing Lu, Andres E. Guzmán, Fumitaka Nakamura' : '13 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">13 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1776,6 +3470,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ac28a1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1789,8 +3487,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1804,7 +3512,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1819,28 +3527,29 @@
 
       
       Kaho
-            Morii
-          , Patricio
-            Sanhueza
-          , Fumitaka
-            Nakamura
-          , and
+            Morii, Patricio
+            Sanhueza, Fumitaka
+            Nakamura, and
         <span class="more-authors" title="click to view 15 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '15 more authors' ? 'James M. Jackson, Shanghuo Li, Henrik Beuther, Qizhou Zhang, Siyi Feng, Daniel Tafoya, Andrés E. Guzmán, Natsuko Izumi, Takeshi Sakai, Xing Lu, Ken’ichi Tatematsu, Satoshi Ohashi, Andrea Silva, Fernando A. Olguin, Yanett Contreras' : '15 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">15 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1860,6 +3569,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ac2365" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1873,8 +3586,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1888,7 +3611,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1903,28 +3626,29 @@
 
       
       Patricio
-            Sanhueza
-          , Josep Miquel
-            Girart
-          , Marco
-            Padovani
-          , and
+            Sanhueza, Josep Miquel
+            Girart, Marco
+            Padovani, and
         <span class="more-authors" title="click to view 20 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '20 more authors' ? 'Daniele Galli, Charles L. H. Hull, Qizhou Zhang, Paulo Cortes, Ian W. Stephens, Manuel Fernández-López, James M. Jackson, Pau Frau, Patrick M. Kock, Benjamin Wu, Luis A. Zapata, Fernando Olguin, Xing Lu, Andrea Silva, Ya-Wen Tang, Takeshi Sakai, Andrés E. Guzmán, Ken’ichi Tatematsu, Fumitaka Nakamura, Huei-Ru Vivien Chen' : '20 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">20 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -1944,6 +3668,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/2041-8213/ac081c" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -1957,8 +3685,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -1977,7 +3715,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -1992,28 +3730,29 @@
 
       
       Huei-Ru Vivien
-            Chen
-          , Qizhou
-            Zhang
-          , M. C. H.
-            Wright
-          , and
+            Chen, Qizhou
+            Zhang, M. C. H.
+            Wright, and
         <span class="more-authors" title="click to view 10 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '10 more authors' ? 'Gemma Busquet, Yuxin Lin, Hauyu Baobab Liu, F. A. Olguin, Patricio Sanhueza, Fumitaka Nakamura, Aina Palau, Satoshi Ohashi, Ken’ichi Tatematsu, Li-Wen Liao' : '10 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">10 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -2033,6 +3772,10 @@
       
       
       
+        <a href="https://doi.org/10.3847/1538-4357/ab0f3e" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -2046,8 +3789,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -2066,7 +3819,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -2081,28 +3834,29 @@
 
       
       I.
-            Mendigutı́a
-          , R. D.
-            Oudmaijer
-          , A.
-            Garufi
-          , and
+            Mendigutı́a, R. D.
+            Oudmaijer, A.
+            Garufi, and
         <span class="more-authors" title="click to view 7 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '7 more authors' ? 'S. L. Lumsden, N. Huélamo, A. Cheetham, W. J. de Wit, B. Norris, F. A. Olguin, P. Tuthill' : '7 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">7 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -2122,6 +3876,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/201731131" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -2135,8 +3893,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -2150,7 +3918,7 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -2165,28 +3933,29 @@
 
       
       D. J.
-            Eden
-          , T. J. T.
-            Moore
-          , R.
-            Plume
-          , and
+            Eden, T. J. T.
+            Moore, R.
+            Plume, and
         <span class="more-authors" title="click to view 42 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '42 more authors' ? 'J. S. Urquhart, M. A. Thompson, H. Parsons, J. T. Dempsey, A. J. Rigby, L. K. Morgan, H. S. Thomas, D. Berry, J. Buckle, C. M. Brunt, H. M. Butner, D. Carretero, A. Chrysostomou, M. J. Currie, H. M. deVilliers, M. Fich, A. G. Gibb, M. G. Hoare, T. Jenness, G. Manser, J. C. Mottram, C. Natario, F. Olguin, N. Peretto, M. Pestalozzi, D. Polychroni, R. O. Redman, C. Salji, L. J. Summers, K. Tahani, A. Traficante, J. diFrancesco, A. Evans, G. A. Fuller, D. Johnstone, G. Joncas, S. N. Longmore, P. G. Martin, J. S. Richer, B. Weferling, G. J. White, M. Zhu' : '42 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">42 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -2206,6 +3975,10 @@
       
       
       
+        <a href="https://doi.org/10.1093/mnras/stx874" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -2219,8 +3992,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -2239,7 +4022,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -2254,28 +4037,29 @@
 
       
       T. J. T.
-            Moore
-          , R.
-            Plume
-          , M. A.
-            Thompson
-          , and
+            Moore, R.
+            Plume, M. A.
+            Thompson, and
         <span class="more-authors" title="click to view 55 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '55 more authors' ? 'H. Parsons, J. S. Urquhart, D. J. Eden, J. T. Dempsey, L. K. Morgan, H. S. Thomas, J. Buckle, C. M. Brunt, H. Butner, D. Carretero, A. Chrysostomou, H. M. deVilliers, M. Fich, M. G. Hoare, G. Manser, J. C. Mottram, C. Natario, F. Olguin, N. Peretto, D. Polychroni, R. O. Redman, A. J. Rigby, C. Salji, L. J. Summers, D. Berry, M. J. Currie, T. Jenness, M. Pestalozzi, A. Traficante, P. Bastien, J. diFrancesco, C. J. Davis, A. Evans, P. Friberg, G. A. Fuller, A. G. Gibb, S. Gibson, T. Hill, D. Johnstone, G. Joncas, S. N. Longmore, S. L. Lumsden, P. G. Martin, Q. Nguyen Lu’o’ng, J. E. Pineda, C. Purcell, J. S. Richer, G. H. Schieven, R. Shipman, M. Spaans, A. R. Taylor, S. Viti, B. Weferling, G. J. White, M. Zhu' : '55 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">55 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -2295,6 +4079,10 @@
       
       
       
+        <a href="https://doi.org/10.1093/mnras/stv1833" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -2308,8 +4096,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -2327,7 +4125,7 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
       
     </div>
   
@@ -2342,28 +4140,29 @@
 
       
       N.
-            Peretto
-          , G. A.
-            Fuller
-          , Ph.
-            André
-          , and
+            Peretto, G. A.
+            Fuller, Ph.
+            André, and
         <span class="more-authors" title="click to view 11 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
               var more_authors_text = element.text() == '11 more authors' ? 'D. Arzoumanian, V. M. Rivilla, S. Bardeau, S. Duarte Puertas, J. P. Guzman Fernandez, C. Lenfestey, G. -X. Li, F. A. Olguin, B. R. Röck, H. de Villiers, J. Williams' : '11 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
             }, '10');
           ">11 more authors</span>
       
+      
     </div>
 
     <!-- Journal/Book title and date -->
+    
+    
+    
     
     
     
@@ -2383,6 +4182,10 @@
       
       
       
+        <a href="https://doi.org/10.1051/0004-6361/201322172" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
       
       
       
@@ -2396,8 +4199,18 @@
     
       
       
+
       
       
+
+      
+      
+
+      
+      
+      
+    
+
     
 
     
@@ -2426,7 +4239,7 @@
     
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      © Copyright 2024
+      © Copyright 2025
       Fernando
       A.
       Olguin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
@@ -2470,6 +4283,8 @@
 
     
 
+    
+
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
@@ -2480,9 +4295,14 @@
 
 
 <!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2930004b8d7fcd0a8e00fdcfc8fc9f24"></script>
-<script defer src="/assets/js/common.js?da39b660470d1ba6e6b8bf5f37070b6e"></script>
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
 <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+
 
     
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
@@ -2492,19 +4312,24 @@
 
 
     
-  <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams',
-      },
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
 
 
     
+
+    
+
 
 
     
@@ -2589,6 +4414,356 @@
     
 
     
+
+    
+
+    
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+    
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script>
+  <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "About",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/";
+        },
+      },{id: "nav-blog",
+              title: "Blog",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-publications",
+              title: "Publications",
+              description: "List of publications",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "nav-projects",
+              title: "Projects",
+              description: "Science projects I participate in as well as fun things.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "nav-cv",
+              title: "CV",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "nav-repositories",
+              title: "Repositories",
+              description: "These are my repositories for science projects",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/repositories/";
+              },
+            },{id: "post-carretera-austral-what-39-s-in-my-panniers",
+          
+            title: "Carretera Austral - What&#39;s in my panniers",
+          
+          description: "List of things for the road",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter15/";
+            
+          },
+        },{id: "post-carretera-austral-the-end-of-the-carretera",
+          
+            title: "Carretera Austral - The end of the carretera",
+          
+          description: "Days at Villa O&#39;Higgins",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter14/";
+            
+          },
+        },{id: "post-carretera-austral-the-last-ferry-crossing",
+          
+            title: "Carretera Austral - The last ferry crossing",
+          
+          description: "Nice roads and wild camping",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter13/";
+            
+          },
+        },{id: "post-carretera-austral-disconnecting-from-the-world",
+          
+            title: "Carretera Austral - Disconnecting from the world",
+          
+          description: "Relaxing and rainy days",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter12/";
+            
+          },
+        },{id: "post-carretera-austral-following-the-baker",
+          
+            title: "Carretera Austral - Following the Baker",
+          
+          description: "The road to Cochrane and a hike",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter11/";
+            
+          },
+        },{id: "post-carretera-austral-goodbye-general-carrera-lake",
+          
+            title: "Carretera Austral - Goodbye General Carrera Lake",
+          
+          description: "Getting closer to the mighty Baker",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter10/";
+            
+          },
+        },{id: "post-carretera-austral-the-end-of-tarmac",
+          
+            title: "Carretera Austral - The end of tarmac",
+          
+          description: "And we enter the gravel roads",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter9/";
+            
+          },
+        },{id: "post-carretera-austral-a-change-of-landscape",
+          
+            title: "Carretera Austral - A change of landscape",
+          
+          description: "A long day crossing the mountains",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter8/";
+            
+          },
+        },{id: "post-carretera-austral-the-simpson-river-valley",
+          
+            title: "Carretera Austral - The Simpson river valley",
+          
+          description: "A day for waterfalls and a climb",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter7/";
+            
+          },
+        },{id: "post-carretera-austral-time-to-visit-friends",
+          
+            title: "Carretera Austral - Time to visit friends",
+          
+          description: "A ride and a weekend with friends",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter6/";
+            
+          },
+        },{id: "post-carretera-austral-fully-pack-day",
+          
+            title: "Carretera Austral - Fully pack day",
+          
+          description: "A hiking and cycling day",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter5/";
+            
+          },
+        },{id: "post-carretera-austral-the-long-wait",
+          
+            title: "Carretera Austral - The long wait",
+          
+          description: "Feeling stuck",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter4/";
+            
+          },
+        },{id: "post-carretera-austral-the-valley-of-rain",
+          
+            title: "Carretera Austral - The valley of rain",
+          
+          description: "Days of rain and cold",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter3/";
+            
+          },
+        },{id: "post-carretera-austral-the-road-to-chaiten",
+          
+            title: "Carretera Austral - The road to Chaiten",
+          
+          description: "Taking my time in Chaiten",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter2/";
+            
+          },
+        },{id: "post-carretera-austral-sunny-start",
+          
+            title: "Carretera Austral - Sunny start",
+          
+          description: "The start of the Carretera Austral trip",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter1/";
+            
+          },
+        },{id: "post-cycling-around-taiwan",
+          
+            title: "Cycling around Taiwan",
+          
+          description: "Chinese New Year cycling in Taiwan",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2023/taiwan_trip_2023/";
+            
+          },
+        },{id: "post-one-year-to-go",
+          
+            title: "One year to go",
+          
+          description: "Carretera Austral trip introduction",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2022/trip_intro/";
+            
+          },
+        },{id: "post-one-year-to-go",
+          
+            title: "One year to go",
+          
+          description: "Carretera Austral trip introduction",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2022/trip_intro/";
+            
+          },
+        },{id: "news-new-site-comes-to-life",
+              title: 'New site comes to life.',
+              description: "",
+              section: "News",},{id: "projects-project-10",
+              title: 'project 10',
+              description: "A project with an introduction section",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/10_project/";
+                },},{id: "projects-project-7",
+              title: 'project 7',
+              description: "with background image",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/7_project/";
+                },},{id: "projects-project-8",
+              title: 'project 8',
+              description: "an other project with a background image and giscus comments",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/8_project/";
+                },},{id: "projects-project-9",
+              title: 'project 9',
+              description: "another project with an image 🎉",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/9_project/";
+                },},{id: "projects-alma-imf",
+              title: 'ALMA-IMF',
+              description: "The ALMA-IMF Large Program.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/alma-imf/";
+                },},{id: "projects-cycling",
+              title: 'Cycling',
+              description: "My bicycles and adventure trips.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/cycling/";
+                },},{id: "projects-dihca-survey",
+              title: 'DIHCA survey',
+              description: "A close-up view into the formation of high-mass stars with ALMA.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/dihca/";
+                },},{id: "projects-photography",
+              title: 'Photography',
+              description: "Photos from trips and more.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/photo/";
+                },},{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
+  </script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
 
   </body>
 </html>

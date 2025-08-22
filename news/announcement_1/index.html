@@ -38,7 +38,6 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
-<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
 <!-- Bootstrap Table -->
@@ -55,21 +54,31 @@
 
 <!-- Styles -->
 
+<!-- pseudocode -->
+
+
+
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%AD&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="https://folguinch.github.io//news/announcement_1/">
 
 <!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
 
   <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
-  <script src="/assets/js/theme.js?0afe9f0ae161375728f7bcc5eb5b4ab4"></script>
+  <script>
+    initTheme();
+  </script>
 
 
 <!-- GeoJSON support via Leaflet -->
 
 
 <!-- diff2html -->
+
+
+<!-- GitHub Project Introduction Section -->
 
 
 
@@ -155,7 +164,16 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
               
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/blog/">Blog
@@ -173,17 +191,7 @@
           
             
               
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/projects/">Projects
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/publications/">Publications
@@ -195,6 +203,19 @@
           
             
               
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/cv/">CV
@@ -206,6 +227,7 @@
           
             
               
+                
                 <li class="nav-item ">
                   
                   <a class="nav-link" href="/repositories/">Repositories
@@ -217,14 +239,21 @@
           
             
           
-            
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
           
           
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           
@@ -258,7 +287,8 @@
   <header class="post-header">
     <h1 class="post-title">Announcement_1</h1>
     <p class="post-meta">
-      February 02, 2022
+      Created in February 02, 2022
+      
       
       
     </p>
@@ -283,6 +313,8 @@
   
 
   
+
+  
     
   
 
@@ -297,7 +329,7 @@
     
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      © Copyright 2024
+      © Copyright 2025
       Fernando
       A.
       Olguin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
@@ -341,6 +373,8 @@
 
     
 
+    
+
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
@@ -351,9 +385,14 @@
 
 
 <!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2930004b8d7fcd0a8e00fdcfc8fc9f24"></script>
-<script defer src="/assets/js/common.js?da39b660470d1ba6e6b8bf5f37070b6e"></script>
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
 <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+
 
     
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
@@ -363,19 +402,24 @@
 
 
     
-  <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams',
-      },
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
 
 
     
+
+    
+
 
 
     
@@ -460,6 +504,356 @@
     
 
     
+
+    
+
+    
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+    
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script>
+  <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "About",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/";
+        },
+      },{id: "nav-blog",
+              title: "Blog",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-publications",
+              title: "Publications",
+              description: "List of publications",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "nav-projects",
+              title: "Projects",
+              description: "Science projects I participate in as well as fun things.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "nav-cv",
+              title: "CV",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "nav-repositories",
+              title: "Repositories",
+              description: "These are my repositories for science projects",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/repositories/";
+              },
+            },{id: "post-carretera-austral-what-39-s-in-my-panniers",
+          
+            title: "Carretera Austral - What&#39;s in my panniers",
+          
+          description: "List of things for the road",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter15/";
+            
+          },
+        },{id: "post-carretera-austral-the-end-of-the-carretera",
+          
+            title: "Carretera Austral - The end of the carretera",
+          
+          description: "Days at Villa O&#39;Higgins",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter14/";
+            
+          },
+        },{id: "post-carretera-austral-the-last-ferry-crossing",
+          
+            title: "Carretera Austral - The last ferry crossing",
+          
+          description: "Nice roads and wild camping",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter13/";
+            
+          },
+        },{id: "post-carretera-austral-disconnecting-from-the-world",
+          
+            title: "Carretera Austral - Disconnecting from the world",
+          
+          description: "Relaxing and rainy days",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter12/";
+            
+          },
+        },{id: "post-carretera-austral-following-the-baker",
+          
+            title: "Carretera Austral - Following the Baker",
+          
+          description: "The road to Cochrane and a hike",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter11/";
+            
+          },
+        },{id: "post-carretera-austral-goodbye-general-carrera-lake",
+          
+            title: "Carretera Austral - Goodbye General Carrera Lake",
+          
+          description: "Getting closer to the mighty Baker",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter10/";
+            
+          },
+        },{id: "post-carretera-austral-the-end-of-tarmac",
+          
+            title: "Carretera Austral - The end of tarmac",
+          
+          description: "And we enter the gravel roads",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter9/";
+            
+          },
+        },{id: "post-carretera-austral-a-change-of-landscape",
+          
+            title: "Carretera Austral - A change of landscape",
+          
+          description: "A long day crossing the mountains",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter8/";
+            
+          },
+        },{id: "post-carretera-austral-the-simpson-river-valley",
+          
+            title: "Carretera Austral - The Simpson river valley",
+          
+          description: "A day for waterfalls and a climb",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter7/";
+            
+          },
+        },{id: "post-carretera-austral-time-to-visit-friends",
+          
+            title: "Carretera Austral - Time to visit friends",
+          
+          description: "A ride and a weekend with friends",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter6/";
+            
+          },
+        },{id: "post-carretera-austral-fully-pack-day",
+          
+            title: "Carretera Austral - Fully pack day",
+          
+          description: "A hiking and cycling day",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter5/";
+            
+          },
+        },{id: "post-carretera-austral-the-long-wait",
+          
+            title: "Carretera Austral - The long wait",
+          
+          description: "Feeling stuck",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter4/";
+            
+          },
+        },{id: "post-carretera-austral-the-valley-of-rain",
+          
+            title: "Carretera Austral - The valley of rain",
+          
+          description: "Days of rain and cold",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter3/";
+            
+          },
+        },{id: "post-carretera-austral-the-road-to-chaiten",
+          
+            title: "Carretera Austral - The road to Chaiten",
+          
+          description: "Taking my time in Chaiten",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter2/";
+            
+          },
+        },{id: "post-carretera-austral-sunny-start",
+          
+            title: "Carretera Austral - Sunny start",
+          
+          description: "The start of the Carretera Austral trip",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/carretera_austral_chapter1/";
+            
+          },
+        },{id: "post-cycling-around-taiwan",
+          
+            title: "Cycling around Taiwan",
+          
+          description: "Chinese New Year cycling in Taiwan",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2023/taiwan_trip_2023/";
+            
+          },
+        },{id: "post-one-year-to-go",
+          
+            title: "One year to go",
+          
+          description: "Carretera Austral trip introduction",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2022/trip_intro/";
+            
+          },
+        },{id: "post-one-year-to-go",
+          
+            title: "One year to go",
+          
+          description: "Carretera Austral trip introduction",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2022/trip_intro/";
+            
+          },
+        },{id: "news-new-site-comes-to-life",
+              title: 'New site comes to life.',
+              description: "",
+              section: "News",},{id: "projects-project-10",
+              title: 'project 10',
+              description: "A project with an introduction section",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/10_project/";
+                },},{id: "projects-project-7",
+              title: 'project 7',
+              description: "with background image",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/7_project/";
+                },},{id: "projects-project-8",
+              title: 'project 8',
+              description: "an other project with a background image and giscus comments",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/8_project/";
+                },},{id: "projects-project-9",
+              title: 'project 9',
+              description: "another project with an image 🎉",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/9_project/";
+                },},{id: "projects-alma-imf",
+              title: 'ALMA-IMF',
+              description: "The ALMA-IMF Large Program.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/alma-imf/";
+                },},{id: "projects-cycling",
+              title: 'Cycling',
+              description: "My bicycles and adventure trips.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/cycling/";
+                },},{id: "projects-dihca-survey",
+              title: 'DIHCA survey',
+              description: "A close-up view into the formation of high-mass stars with ALMA.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/dihca/";
+                },},{id: "projects-photography",
+              title: 'Photography',
+              description: "Photos from trips and more.",
+              section: "Projects",handler: () => {
+                  window.location.href = "/projects/photo/";
+                },},{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
+  </script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
 
   </body>
 </html>
